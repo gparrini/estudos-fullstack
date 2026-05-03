@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+  <main>
+    <section>
+
+      <!-- Título do formulário -->
+      <h2>Newsletter</h2>
+
+      <!-- Formulário -->
+      <form action="">
+        <!-- action="" define para onde os dados serão enviados -->
+
+        <div>
+          <!-- Label conecta com o input pelo "for" -->
+          <label for="name">Nome (Apenas letras)</label>
+
+          <!-- Esse input aceita apenas letras -->
+          <!-- id = identificador único -->
+          <!-- name = nome do campo enviado -->
+          <!-- type = tipo texto -->
+          <!-- pattern = só permite letras -->
+          <!-- title = mensagem de erro -->
+          <!-- placeholder = texto de exemplo -->
+          <!-- required = campo obrigatório -->
+          <input
+            id="name"
+            name="name"
+            type="text"
+            pattern="[a-zA-Z]+"
+            title="Esse input só aceita letras, não aceita números"
+            placeholder="Seu primeiro nome"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+
+          <!-- type="email" valida automaticamente o formato -->
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Seu melhor e-mail"
+          />
+        </div>
+
+        <div>
+          <label for="phone">Telefone</label>
+
+          <!-- type="number" aceita apenas números -->
+          <input
+            id="phone"
+            name="phone"
+            type="number"
+            placeholder="Seu telefone"
+          />
+        </div>
+
+        <!-- Botão que envia o formulário -->
+        <button type="submit">Enviar!</button>
+      </form>
+
+    </section>
+  </main>
+</body>
+</html>

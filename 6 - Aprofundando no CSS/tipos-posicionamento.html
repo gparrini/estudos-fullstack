@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Posicionamento</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      /* position: static, relative, absolute, fixed, sticky */
+
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+      }
+
+      p,
+      a {
+        color: inherit;
+        font-size: 1.6rem;
+      }
+
+      p {
+        position: fixed;
+
+        bottom: 1rem;
+        right: 1rem;
+      }
+
+      .texto-sticky {
+        position: sticky;
+        top: 1rem;
+      }
+
+      a:first-child {
+        /* O elemento em questão está sendo posicionado absolutamente em relação a quem? A resposta deverá estar com posicionamento relativo */
+        position: absolute;
+        /* top: 0;
+        left: 0; */
+        bottom: 2rem;
+        right: 0;
+      }
+
+      div {
+        /* position: relative;
+        top: 20rem;
+        left: 20rem;
+        right: ;
+        bottom: ; */
+        position: relative;
+
+        height: 70rem;
+        width: 30rem;
+        background-color: green;
+        color: white;
+      }
+    </style>
+
+    <div>
+      <a href="">Acesse meu site!</a>
+      <a href="">Outro 'acesse meu site'</a>
+      <p class="texto-sticky">Um textinho aleatório</p>
+    </div>
+
+    <p>Parágrafo</p>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela</title>
+  </head>
+<body>
+  <main>
+    <section>
+
+      <!-- Início da tabela -->
+      <table>
+
+        <!-- Título/legenda da tabela (aparece acima ou abaixo) -->
+        <caption>
+          Legenda da Tabela
+        </caption>
+
+        <!-- Define estilos para colunas específicas -->
+        <colgroup>
+          <!-- Primeira coluna -->
+          <col />
+
+          <!-- Próximas 2 colunas recebem a classe "col-vermelha" -->
+          <col span="2" class="col-vermelha" />
+        </colgroup>
+
+        <!-- Cabeçalho da tabela -->
+        <thead>
+          <tr> <!-- Linha -->
+            <th>Cabeçalho 1</th> <!-- Célula de título -->
+            <th>Cabeçalho 2</th>
+            <th>Cabeçalho 3</th>
+          </tr>
+        </thead>
+
+        <!-- Corpo da tabela (dados principais) -->
+        <tbody>
+
+          <!-- Primeira linha de dados -->
+          <tr>
+            <td>Cabeçalho 4</td> <!-- Célula comum -->
+            <td>Informação 2</td>
+            <td>Informação 3</td>
+          </tr>
+
+          <!-- Segunda linha de dados -->
+          <tr>
+            <td>Cabeçalho 5</td>
+            <td>Informação 5</td>
+            <td>Informação 6</td>
+            <td>Informação 7</td> <!-- ⚠️ Aqui tem 4 colunas (diferente das outras) -->
+          </tr>
+
+        </tbody>
+
+        <!-- Rodapé da tabela -->
+        <tfoot>
+          <tr>
+            <td>Rodapé/Cabeçalho 1</td>
+            <td>Rodapé 2</td>
+            <td>Rodapé 3</td>
+          </tr>
+        </tfoot>
+
+      </table>
+      <!-- Fim da tabela -->
+
+    </section>
+  </main>
+</body>
+</html>

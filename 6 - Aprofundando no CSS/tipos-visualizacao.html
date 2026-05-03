@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Visualização</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      /*
+      Block
+      Ocupa todo o espaço horizontal
+      Quebra linhas
+      Box model se aplica
+      Padding e Margin funcionam normalmente
+       */
+
+      h1 {
+        display: block;
+        font-size: 3.2rem;
+        height: 5rem;
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+      h2 {
+        font-size: 2.4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+
+      /*
+      Inline
+      Ocupa apenas o espaço do conteúdo
+      Não quebra linhas (fica lado a lado)
+      Box model NÃO se aplica
+      Padding e Margin só funcionam na horizontal
+       */
+
+      /*
+      Inline-block
+      Ocupa apenas o espaço do conteúdo
+      Não quebra linhas (fica lado a lado)
+
+      Box model se aplica
+      Padding e Margin funcionam normalmente
+       */
+
+      a {
+        display: inline-block;
+        font-size: 1.6rem;
+        height: 5rem;
+        margin: 2rem;
+      }
+
+      span {
+        display: none;
+        font-style: italic;
+        color: red;
+      }
+    </style>
+
+    <div>
+      <h1>Meu título</h1>
+      <h1>Meu título</h1>
+      <h2>Meu subtítulo</h2>
+
+      <a href="">Acesse meu site!</a>
+      <a href="">Acesse meu site!</a>
+
+      <p>
+        Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> Nam
+        fermentum mauris eu diam tristique, sed scelerisque ante dignissim.
+        Quisque maximus risus ut tortor maximus convallis. Phasellus eleifend
+        <span>fe Ut tempus ac turpis vitae venenatis.</span>enenatis. Aenean et
+        ante eleifend, sollicitudin ex sit amet, tempor ipsum. Integer malesuada
+        mattis dolor. Nulla suscipit ante auctor ipsum blandit mattis. Donec id
+        ante arcu. Cras accumsan mollis nulla. Nam pharetra venenatis urna, at
+        consectetur lacus tempor a. Proin at sollicitudin enim. Pellentesque non
+        lobortis velit. Maecenas vehicula, nibh eu sodales egestas, tortor arcu
+        elementum purus, et suscipit odio orci vitae tortor.
+      </p>
+    </div>
+  </body>
+</html>

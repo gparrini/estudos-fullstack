@@ -1,0 +1,82 @@
+GUIA DE TAGS HTML: FUNÇÕES E EXEMPLOS
+======================================
+
+ESTRUTURA BÁSICA
+----------------
+<html>      - Define a raiz do documento HTML.
+              Exemplo: <html>...</html>
+
+<head>      - Contém metadados (título, links para CSS, scripts) não visíveis na página.
+              Exemplo: <head><title>Título da Aba</title></head>
+
+<body>      - Contém todo o conteúdo visível para o usuário.
+              Exemplo: <body><h1>Olá Mundo</h1></body>
+
+
+CABEÇALHOS E TEXTO
+------------------
+<h1> a <h6> - Definem títulos de níveis 1 (mais importante) a 6 (menos importante).
+              Exemplo: <h1>Título Principal</h1>, <h3>Subtítulo</h3>
+
+<p>         - Define um parágrafo de texto.
+              Exemplo: <p>Este é um parágrafo de exemplo.</p>
+
+<span>      - Container genérico em linha (inline) para estilizar partes de um texto.
+              Exemplo: <p>Texto <span style="color:blue">azul</span> aqui.</p>
+
+
+FORMATAÇÃO DE TEXTO
+-------------------
+<b>         - Aplica negrito apenas visualmente.
+              Exemplo: <b>Texto em negrito</b>
+
+<i>         - Aplica itálico apenas visualmente.
+              Exemplo: <i>Texto em itálico</i>
+
+<strong>    - Indica importância semântica forte (geralmente negrito).
+              Exemplo: <strong>Atenção: Perigo!</strong>
+
+<em>        - Indica ênfase semântica (geralmente itálico).
+              Exemplo: <em>Eu realmente preciso disso.</em>
+
+<br>        - Insere uma quebra de linha simples (não fecha).
+              Exemplo: Linha 1<br>Linha 2
+
+<hr>        - Insere uma linha horizontal (separador temático).
+              Exemplo: Conteúdo acima <hr> Conteúdo abaixo
+
+
+LISTAS
+------
+<ul>        - Define uma lista não ordenada (com marcadores/bolinhas).
+              Exemplo: <ul><li>Item</li></ul>
+
+<ol>        - Define uma lista ordenada (numerada).
+              Exemplo: <ol><li>Primeiro passo</li></ol>
+
+<li>        - Define um item individual dentro de uma lista (ul ou ol).
+              Exemplo: <li>Item da lista</li>
+
+<dl>        - Define uma lista de descrição (conjunto de termos e detalhes).
+              Exemplo: <dl><dt>HTML</dt><dd>Linguagem de marcação</dd></dl>
+
+<dt>        - Define o termo ou nome na lista de descrição.
+              Exemplo: <dt>Café</dt>
+
+<dd>        - Define a descrição ou definição do termo anterior.
+              Exemplo: <dd>Bebida quente preta.</dd>
+
+
+LINKS E MÍDIA
+-------------
+<a>         - Cria um hiperlink para endereços externos ou internos.
+              Exemplo: <a href="https://google.com">Ir para o Google</a>
+
+<img>       - Insere uma imagem na página.
+              Exemplo: <img src="foto.jpg" alt="Descrição da foto">
+
+<figure>    - Container para conteúdo ilustrativo (imagem, gráfico, código).
+              Exemplo: <figure><img src="grafico.png"></figure>
+
+<figcaption>- Define a legenda ou descrição para o elemento <figure>.
+              Exemplo: <figcaption>Figura 1: Gráfico de vendas.</figcaption>
