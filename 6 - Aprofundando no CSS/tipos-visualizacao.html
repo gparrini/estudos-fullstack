@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tipos de Visualização</title>
   </head>
-  <body>
+<body>
     <style>
+      /* =========================================
+         PARTE 1: RESET E BASE
+         ========================================= */
       * {
         margin: 0;
         padding: 0;
       }
 
       html {
-        font-size: 62.5%;
+        font-size: 62.5%; /* Base 10px */
       }
 
+
+      /* =========================================
+         PARTE 2: DISPLAY BLOCK (BLOCO)
+         ========================================= */
       /*
-      Block
-      Ocupa todo o espaço horizontal
-      Quebra linhas
-      Box model se aplica
-      Padding e Margin funcionam normalmente
-       */
+      Resumo do BLOCK:
+      - Ocupa TODO o espaço horizontal disponível da tela (100% da largura).
+      - Quebra linhas automaticamente (ninguém senta do lado dele, empurra o resto para baixo).
+      - O Box Model (width, height, margin, padding) funciona perfeitamente em todos os lados.
+      - Tags que já nascem Block por padrão: <div>, <h1> a <h6>, <p>, <section>.
+      */
 
       h1 {
+        /* A tag h1 já é block por padrão, mas escrever aqui reforça o comportamento. */
         display: block;
         font-size: 3.2rem;
+        
+        /* Como é block, ele obedece perfeitamente à altura, margem e padding em todos os lados! */
         height: 5rem;
         margin: 1rem;
         padding: 1rem;
@@ -34,38 +44,54 @@
 
       h2 {
         font-size: 2.4rem;
+        /* O h2 não tem 'display' escrito, mas ele também é BLOCK por padrão do navegador. */
       }
 
       p {
         font-size: 1.6rem;
+        /* O parágrafo também é BLOCK por padrão. */
       }
 
-      /*
-      Inline
-      Ocupa apenas o espaço do conteúdo
-      Não quebra linhas (fica lado a lado)
-      Box model NÃO se aplica
-      Padding e Margin só funcionam na horizontal
-       */
 
+      /* =========================================
+         PARTE 3: DISPLAY INLINE E INLINE-BLOCK
+         ========================================= */
       /*
-      Inline-block
-      Ocupa apenas o espaço do conteúdo
-      Não quebra linhas (fica lado a lado)
+      Resumo do INLINE (Em Linha):
+      - Ocupa APENAS o espaço do seu próprio texto.
+      - NÃO quebra linhas (elementos ficam lado a lado, na mesma linha do texto).
+      - O Box Model é "quebrado": margin e padding vertical (top/bottom), width e height NÃO funcionam.
+      - Tags que já nascem Inline por padrão: <span>, <b>, <i>, <a>.
 
-      Box model se aplica
-      Padding e Margin funcionam normalmente
-       */
+      Resumo do INLINE-BLOCK:
+      - É o "melhor dos dois mundos"!
+      - Como o Inline: Fica lado a lado, ocupando só o espaço necessário.
+      - Como o Block: Aceita perfeitamente height, width, margin e padding em todos os lados!
+      */
 
       a {
+        /* Links (tags <a>) nascem como INLINE. Se não mudássemos aqui, a altura (height) 
+           e as margens de cima/baixo seriam simplesmente IGNORADAS pelo navegador.
+           Ao mudar para INLINE-BLOCK, os links ficam lado a lado, mas agora respeitam 
+           a altura de 50px e as margens! */
         display: inline-block;
+        
         font-size: 1.6rem;
         height: 5rem;
         margin: 2rem;
       }
 
+
+      /* =========================================
+         PARTE 4: DISPLAY NONE (OCULTAR)
+         ========================================= */
       span {
+        /* O 'display: none' faz o elemento SUMIR da tela. 
+           E não é só ficar invisível: ele remove o elemento do layout completamente, 
+           como se a tag nunca tivesse existido no HTML. O texto ao redor vai se juntar 
+           para ocupar o buraco que ele deixou. */
         display: none;
+        
         font-style: italic;
         color: red;
       }
@@ -80,9 +106,12 @@
       <a href="">Acesse meu site!</a>
 
       <p>
-        Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit.</b> Nam
-        fermentum mauris eu diam tristique, sed scelerisque ante dignissim.
-        Quisque maximus risus ut tortor maximus convallis. Phasellus eleifend
+        Lorem ipsum dolor sit amet, 
+        
+        <b>consectetur adipiscing elit.</b> Nam fermentum mauris eu diam tristique, 
+        sed scelerisque ante dignissim. Quisque maximus risus ut tortor maximus convallis. 
+        Phasellus eleifend
+        
         <span>fe Ut tempus ac turpis vitae venenatis.</span>enenatis. Aenean et
         ante eleifend, sollicitudin ex sit amet, tempor ipsum. Integer malesuada
         mattis dolor. Nulla suscipit ante auctor ipsum blandit mattis. Donec id

@@ -5,52 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dimensões e Unidades</title>
   </head>
-  <body>
-    <style>
-      /* vh - viewport height */
-      /* vw - viewport width*/
-      /* em */
-      /* rem */
+<body>
+  <style>
+    /* =========================================
+       PARTE 1: CONCEITOS DE UNIDADES (O CABEÇALHO)
+       ========================================= */
+       
+    /* vh - Viewport Height (Altura da Tela): 1vh equivale a 1% da ALTURA total da tela visível do navegador. */
+    /* vw - Viewport Width (Largura da Tela): 1vw equivale a 1% da LARGURA total da tela visível do navegador. */
+    
+    /* em - Unidade Relativa ao PAI: O tamanho se baseia no font-size do elemento que o envolve (o elemento pai). */
+    /* rem - Unidade Relativa à RAIZ (Root em): O tamanho se baseia UNICAMENTE no font-size da tag <html>. */
 
-      html {
-        /* font-size: 10px; */
-        font-size: 62.5%;
-      }
 
-      div {
-        background-color: red;
-        padding: 1rem;
-        /* 100px */
-        width: 10rem;
-        /* 150px */
-        height: 15rem;
-        font-size: 16px;
-      }
+    /* =========================================
+       PARTE 2: CONFIGURANDO A BASE (A RAIZ)
+       ========================================= */
 
-      section {
-        font-size: 10px;
-      }
+    html {
+      /* font-size: 10px; */ 
+      /* ^ Isso faria a fonte base ser 10px, mas não é a melhor prática para acessibilidade, 
+         pois sobrescreve as configurações do usuário no navegador. */
+         
+      /* Ao usar 62.5%, pegamos o tamanho padrão do navegador (geralmente 16px) e reduzimos para 10px 
+         (16 * 0.625 = 10). Assim, mantemos a acessibilidade, mas facilitamos a nossa matemática: 
+         agora 1rem = 10px! */
+      font-size: 62.5%;
+    }
 
-      h1 {
-        /* 32px */
-        font-size: 3.2rem;
-      }
 
-      p {
-        /* font-size: 2em; */
+    /* =========================================
+       PARTE 3: ESTILIZANDO OS ELEMENTOS
+       ========================================= */
 
-        /* 16px */
-        font-size: 1.6rem;
-      }
-    </style>
+    div {
+      /* Pinta o fundo da caixa de vermelho */
+      background-color: red;
+      
+      /* Espaçamento interno de 1rem (10px, baseado no html) */
+      padding: 1rem;
+      
+      /* Largura fixa usando rem: 10rem = 100px */
+      width: 10rem;
+      
+      /* Altura fixa usando rem: 15rem = 150px */
+      height: 15rem;
+      
+      /* ATENÇÃO AQUI: Estamos definindo a fonte DESTA div especificamente para 16px. 
+         Isso vai afetar a unidade 'em' se ela for usada aqui dentro, mas NÃO afeta o 'rem'. */
+      font-size: 16px;
+    }
 
-    <div>
-      <h1>Meu título</h1>
-      <p>Meu parágrafo</p>
-    </div>
+    section {
+      /* Define que a fonte padrão dentro desta tag <section> será de 10px. */
+      font-size: 10px;
+    }
 
-    <section>
-      <p>Meu segundo parágrafo</p>
-    </section>
-  </body>
+    h1 {
+      /* Como usa 'rem', ele olha direto para o <html>, ignorando o 16px da div. 
+         3.2 * 10px (do html) = 32px. */
+      font-size: 3.2rem;
+    }
+
+    p {
+      /* font-size: 2em; */
+      /* ^ Se este '2em' estivesse ativo no primeiro parágrafo (que está dentro da div), 
+         ele olharia para o pai (a div, que tem font-size: 16px) e multiplicaria por 2. 
+         O resultado seria 32px! A unidade 'em' é multiplicativa e pode ser confusa. */
+
+      /* Como usamos 'rem', ele olha para o <html>. 
+         1.6 * 10px = 16px. O tamanho será consistente independente de onde o <p> estiver! */
+      font-size: 1.6rem;
+    }
+  </style>
+
+
+  <div>
+    <h1>Meu título</h1>
+    
+    <p>Meu parágrafo</p>
+  </div>
+
+  <section>
+    <p>Meu segundo parágrafo</p>
+  </section>
+</body>
 </html>

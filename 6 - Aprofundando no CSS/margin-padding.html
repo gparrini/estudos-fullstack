@@ -7,22 +7,46 @@
   </head>
   <body>
     <style>
+      /* O seletor 'p' aplicará este estilo a TODOS os parágrafos da página. */
       p {
-        /* Todos os lados */
+        /* =========================================
+           PARTE 1: TESTES DE MARGEM (COMENTADOS)
+           ========================================= */
+
+        /* 1 VALOR: Aplica o mesmo tamanho para Todos os Lados (Cima, Direita, Baixo, Esquerda). */
         /* margin: 10px; */
 
-        /* Em cima e embaixo 10px, de um lado e do outro 25px*/
+        /* 2 VALORES: O 1º valor serve para o eixo Y (Cima e Embaixo). 
+                      O 2º valor serve para o eixo X (Direita e Esquerda).
+           Neste caso: 10px em cima/embaixo, e 25px nas laterais. */
         /* margin: 10px 25px; */
 
-        /* Cada lado separadamente. Em cima, Direita, Embaixo, Esquerda*/
+        /* 4 VALORES (A Regra do Relógio): Cada lado separadamente no sentido horário. 
+           Top (10px), Right (20px), Bottom (30px), Left (40px). */
         /* margin: 10px 20px 30px 40px; */
 
+
+        /* =========================================
+           PARTE 2: ESTILOS ATIVOS NO MOMENTO
+           ========================================= */
+
+        /* Aqui estamos zerando qualquer margem que o navegador coloque por padrão nos parágrafos. 
+           Neste momento, os parágrafos estão grudados em tudo ao redor. */
         margin: 0;
 
+        /* Margem Específica: Como zeramos tudo acima, aqui estamos dizendo: 
+           "Ok, mantenha tudo zero, mas adicione 10px de espaço externo APENAS no lado direito". */
         margin-right: 10px;
 
+        /* Pinta o fundo de vermelho. Isso é ótimo para visualizar onde termina 
+           o padding (que fica vermelho) e onde começa a margin (que é invisível). */
         background-color: red;
 
+        /* PADDING (Espaçamento Interno): A mesma "Regra do Relógio" da margem se aplica aqui!
+           - 10px no Topo (distância do texto para a borda superior vermelha)
+           - 20px na Direita
+           - 30px Embaixo
+           - 40px na Esquerda */
         padding: 10px 20px 30px 40px;
       }
     </style>

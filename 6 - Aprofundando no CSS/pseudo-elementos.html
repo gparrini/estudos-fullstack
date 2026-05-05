@@ -5,25 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pseudo-elementos</title>
   </head>
-  <body>
+<body>
     <style>
+      /* =========================================
+         PARTE 1: ELEMENTOS "FANTASMAS" (BEFORE / AFTER)
+         ========================================= */
+
+      /* O ::after cria um elemento virtual que aparece LOGO APÓS o conteúdo interno da tag <p>.
+         É como se o CSS injetasse algo no final do parágrafo, sem você ter digitado no HTML. */
       p::after {
-        content: "Textinho que vai entrar no final.";
+        /* A propriedade 'content' é OBRIGATÓRIA para o ::before e ::after funcionarem. 
+           Se você não colocar o 'content' (mesmo que seja vazio, como content: "";), o elemento não aparece na tela. */
+        content: " Textinho que vai entrar no final.";
       }
 
+      /* O ::before funciona da mesma forma, mas injeta o elemento virtual LOGO ANTES 
+         do conteúdo interno da tag <p>. */
       p::before {
-        content: "Textinho que vai entrar no início.";
+        content: "Textinho que vai entrar no início. ";
       }
 
+
+      /* =========================================
+         PARTE 2: ESTILIZANDO PARTES DO TEXTO
+         ========================================= */
+
+      /* O ::first-letter seleciona APENAS a primeira letra de todo o parágrafo.
+         É muito usado para criar aquele efeito de "Capitular" (Drop Cap) comum em jornais e livros antigos. */
       p::first-letter {
-        font-size: 60px;
-        font-weight: 700;
+        font-size: 60px;  /* Deixa a primeira letra gigante */
+        font-weight: 700; /* Deixa em negrito */
       }
 
+      /* O ::first-line seleciona a PRIMEIRA LINHA do parágrafo. 
+         O mais legal aqui é que isso é dinâmico! Se você redimensionar a janela do navegador 
+         e a quebra de linha mudar, o CSS recalcula automaticamente e mantém apenas a nova 
+         primeira linha estilizada. */
       p::first-line {
-        color: red;
+        color: red; /* Pinta a primeira linha de vermelho */
       }
     </style>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus porta
       dictum. Vestibulum mauris erat, volutpat vel odio eget, elementum egestas

@@ -5,75 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tipos de Posicionamento</title>
   </head>
-  <body>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
+<body>
+  <style>
+    /* =========================================
+       PARTE 1: RESET E TIPOGRAFIA BASE
+       ========================================= */
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-      html {
-        font-size: 62.5%;
-      }
+    html {
+      font-size: 62.5%; /* 1rem = 10px */
+    }
 
-      /* position: static, relative, absolute, fixed, sticky */
+    h1 { font-size: 3.2rem; }
+    h2 { font-size: 2.4rem; }
 
-      h1 {
-        font-size: 3.2rem;
-      }
+    p,
+    a {
+      /* inherit significa "herdar". Esses elementos vão pegar a cor 
+         do elemento pai onde estiverem dentro. */
+      color: inherit;
+      font-size: 1.6rem;
+    }
 
-      h2 {
-        font-size: 2.4rem;
-      }
 
-      p,
-      a {
-        color: inherit;
-        font-size: 1.6rem;
-      }
+    /* =========================================
+       PARTE 2: POSIÇÃO FIXED (FIXA NA TELA)
+       ========================================= */
+    p {
+      /* FIXED: Tira o elemento do fluxo da página e o "prega" na tela do usuário.
+         Mesmo se a página rolar para baixo, este elemento NÃO sai do lugar.
+         Ele ignora onde ele foi escrito no HTML e olha apenas para a tela do navegador. */
+      position: fixed;
 
-      p {
-        position: fixed;
+      /* Prega o elemento a 10px (1rem) de distância do final (bottom) 
+         e 10px da direita (right) da tela. O clássico botão de "Voltar ao topo" ou ícone de WhatsApp! */
+      bottom: 1rem;
+      right: 1rem;
+    }
 
-        bottom: 1rem;
-        right: 1rem;
-      }
 
-      .texto-sticky {
-        position: sticky;
-        top: 1rem;
-      }
+    /* =========================================
+       PARTE 3: POSIÇÃO STICKY (PEGAJOSA)
+       ========================================= */
+    .texto-sticky {
+      /* STICKY: É uma mistura de relativo com fixo. Ele se comporta como um elemento normal,
+         MAS quando o usuário rolar a página e o elemento atingir a distância definida no 'top', 
+         ele "gruda" na tela e desce acompanhando a rolagem, até que o pai dele acabe. */
+      position: sticky;
+      
+      /* Gruda o elemento a 10px do topo da tela quando passarmos por ele. */
+      top: 1rem;
+    }
 
-      a:first-child {
-        /* O elemento em questão está sendo posicionado absolutamente em relação a quem? A resposta deverá estar com posicionamento relativo */
-        position: absolute;
-        /* top: 0;
-        left: 0; */
-        bottom: 2rem;
-        right: 0;
-      }
 
-      div {
-        /* position: relative;
-        top: 20rem;
-        left: 20rem;
-        right: ;
-        bottom: ; */
-        position: relative;
+    /* =========================================
+       PARTE 4: POSIÇÃO ABSOLUTE (A RELAÇÃO PAI E FILHO)
+       ========================================= */
+    
+    /* a:first-child é uma pseudo-classe que seleciona apenas a PRIMEIRA tag <a> que 
+       aparecer dentro de algum lugar. */
+    a:first-child {
+      /* ABSOLUTE: Tira o elemento do fluxo normal (como se ele flutuasse).
+         A PERGUNTA DE OURO QUE VOCÊ COLOCOU: "O elemento está sendo posicionado em relação a quem?"
+         Resposta: O 'absolute' sempre procura o ancestral mais próximo que tenha UM POSITION DIFERENTE DE STATIC. 
+         Se ele não achar ninguém, ele se baseia no <html> inteiro. Se achar, ele fica "preso" nesse pai. */
+      position: absolute;
+      
+      /* Como a nossa div tem position: relative, este link está colado a 20px (2rem) do fundo DA DIV,
+         e grudado na direita (0) DA DIV, e não da tela do navegador! */
+      bottom: 2rem;
+      right: 0;
+    }
 
-        height: 70rem;
-        width: 30rem;
-        background-color: green;
-        color: white;
-      }
-    </style>
 
-    <div>
-      <a href="">Acesse meu site!</a>
-      <a href="">Outro 'acesse meu site'</a>
-      <p class="texto-sticky">Um textinho aleatório</p>
-    </div>
+    /* =========================================
+       PARTE 5: POSIÇÃO RELATIVE (A ÂNCORA)
+       ========================================= */
+    div {
+      /* RELATIVE: Se você não usar top/bottom/left/right nele, visualmente nada muda. 
+         A grande sacada do 'relative' é servir de "âncora" ou "prisão" para 
+         os elementos 'absolute' que estão DENTRO dele! É por causa desta linha que 
+         o link lá em cima sabe onde é o seu limite. */
+      position: relative;
 
-    <p>Parágrafo</p>
-  </body>
+      /* Um retângulo grandão verde apenas para termos área de rolagem */
+      height: 70rem;
+      width: 30rem;
+      background-color: green;
+      
+      /* A cor do texto principal é branca. Lembra do 'color: inherit' lá no topo? 
+         Os textos que estiverem AQUI DENTRO herdarão o branco. */
+      color: white;
+    }
+  </style>
+
+  <div>
+    <a href="">Acesse meu site!</a>
+    
+    <a href="">Outro 'acesse meu site'</a>
+    
+    <p class="texto-sticky">Um textinho aleatório</p>
+  </div>
+
+  <p>Parágrafo</p>
+</body>
 </html>

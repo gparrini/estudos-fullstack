@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elementos Arredondados</title>
   </head>
-  <body>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
+<body>
+  <style>
+    /* =========================================
+       PARTE 1: RESET E CONFIGURAÇÃO BASE (REVISÃO)
+       ========================================= */
 
-      html {
-        font-size: 62.5%;
-      }
+    /* O Seletor Universal (*) zera as margens e preenchimentos padrão do navegador. */
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-      div {
-        margin: 10rem;
-        width: 40rem;
-        height: 20rem;
-        background-color: green;
+    /* Reduz a fonte base para 10px (62.5% de 16px) para facilitar a matemática do 'rem'. 
+       Lembrete: 1rem = 10px! */
+    html {
+      font-size: 62.5%;
+    }
 
-        border-radius: 50%;
-      }
-    </style>
-    <div></div>
-  </body>
+
+    /* =========================================
+       PARTE 2: A MÁGICA DO ARREDONDAMENTO
+       ========================================= */
+
+    div {
+      /* margin: Espaço EXTERNO. 
+         10rem = 100px. Isso empurra a caixa para longe das bordas da tela (topo, direita, baixo e esquerda). */
+      margin: 10rem;
+      
+      /* Largura da caixa: 40rem = 400px */
+      width: 40rem;
+      
+      /* Altura da caixa: 20rem = 200px. 
+         ATENÇÃO: Como a largura é o dobro da altura, nós temos um RETÂNGULO, e não um quadrado perfeito. */
+      height: 20rem;
+      
+      /* Pinta o fundo de verde para podermos enxergar a forma geométrica. */
+      background-color: green;
+
+      /* BORDER-RADIUS: É aqui que a mágica acontece! 
+         Quando usamos 50%, o CSS diz: "Arredonde cada canto até a metade exata do caminho".
+         
+         Como a nossa caixa é um RETÂNGULO (mais larga do que alta), os 50% da largura são maiores 
+         que os 50% da altura. O resultado visual disso NÃO é um círculo, mas sim uma ELIPSE (um formato oval). */
+      border-radius: 50%;
+    }
+  </style>
+
+  <div></div>
+</body>
 </html>

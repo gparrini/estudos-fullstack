@@ -5,38 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seletor Universal</title>
   </head>
-  <body>
+<body>
     <style>
+      /* =========================================
+         PARTE 1: O SELETOR UNIVERSAL (O RESET)
+         ========================================= */
+
+      /* O asterisco (*) é o Seletor Universal. Ele age como um coringa e seleciona
+         absolutamente TODAS as tags da sua página ao mesmo tempo (divs, h1, p, a, imagens, etc). */
       * {
+        /* Cada navegador (Chrome, Safari, Edge) vem com margens e espaçamentos padrão diferentes.
+           Ao aplicarmos margem e preenchimento zero no Seletor Universal, nós "resetamos" a página,
+           garantindo que o site fique exatamente igual em qualquer navegador, e que os espaços
+           sejam definidos apenas por você, e não pelo navegador. */
         margin: 0;
         padding: 0;
       }
 
+
+      /* =========================================
+         PARTE 2: CONFIGURAÇÃO RAIZ (HTML)
+         ========================================= */
+
       html {
+        /* Como vimos antes, isso muda o tamanho base da fonte de 16px para 10px.
+           Isso facilita o uso da unidade 'rem' (1rem = 10px). */
         font-size: 62.5%;
+        
         /* font-size: 10px; */
+        /* ^ Esta linha comentada faria a mesma matemática, mas é ruim para acessibilidade,
+           pois trava o tamanho da fonte e ignora se o usuário tiver configurado fontes maiores 
+           no próprio navegador por problemas de visão. */
       }
 
+
+      /* =========================================
+         PARTE 3: ESTILOS GLOBAIS DO CORPO (BODY)
+         ========================================= */
+
+      /* A tag <body> engloba todo o conteúdo visível do site. 
+         Aqui entra o conceito de HERANÇA: estilos de texto aplicados no <body> 
+         serão herdados por todos os elementos dentro dele. */
       body {
+        /* Define a fonte padrão do site como "Montserrat". 
+           O "sans-serif" é um plano B: se o computador do usuário não tiver a fonte Montserrat instalada, 
+           o navegador usará a fonte sem serifa padrão do sistema (como Arial ou Roboto). */
         font-family: "Monserrat", sans-serif;
+        
+        /* Define a cor padrão de todos os textos para um cinza bem escuro (#333).
+           Textos 100% pretos (#000) no fundo branco cansam a vista, então um cinza escuro é melhor. */
         color: #333;
       }
 
+
+      /* =========================================
+         PARTE 4: TIPOGRAFIA ESPECÍFICA (HERDEIROS)
+         ========================================= */
+
+      /* O h1, h2 e p NÃO precisam de 'font-family' ou 'color', pois eles HERDARAM 
+         isso do <body>. Aqui nós só ajustamos o tamanho e o espaçamento de cada um. */
       h1 {
+        /* Espaço externo para baixo: 2rem = 20px */
         margin-bottom: 2rem;
+        /* Tamanho da fonte: 3.2rem = 32px */
         font-size: 3.2rem;
       }
 
       h2 {
+        /* Espaço externo para baixo: 1rem = 10px */
         margin-bottom: 1rem;
+        /* Tamanho da fonte: 2.4rem = 24px */
         font-size: 2.4rem;
       }
 
       p {
+        /* Espaço externo para baixo: 0.5rem = 5px */
         margin-bottom: 0.5rem;
+        /* Tamanho da fonte: 1.6rem = 16px */
         font-size: 1.6rem;
       }
     </style>
+
     <div>
       <h1>Meu título</h1>
       <h2>Meu subtítulo</h2>

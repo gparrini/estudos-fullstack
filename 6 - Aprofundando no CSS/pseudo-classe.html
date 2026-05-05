@@ -5,30 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pseudo-Classe</title>
   </head>
-  <body>
+<body>
     <style>
-      /* LVHA */
-      /* link, visited, hover, active */
+      /* =========================================
+         PARTE 1: A REGRA LVHA PARA LINKS
+         ========================================= */
 
+      /* LVHA é uma sigla vital no CSS! Ela dita a ORDEM exata em que você deve escrever 
+         os estilos de um link para que funcionem corretamente, sem um sobrescrever o outro:
+         
+         L -> :link    (Link no estado normal, nunca clicado)
+         V -> :visited (Link que o usuário já clicou/visitou antes)
+         H -> :hover   (Quando o usuário passa o cursor do mouse por cima)
+         A -> :active  (O milissegundo exato em que o usuário aperta o botão do mouse)
+         
+         Dica da comunidade: Para decorar essa ordem, lembre-se da frase "LoVe HAte" (Amor e Ódio). */
+
+
+      /* Agrupamos as duas primeiras regras (separadas por vírgula). 
+         Tanto os links normais quanto os já visitados terão exatamente o mesmo visual. */
       a:link,
       a:visited {
         color: blue;
+        
+        /* font-weight: 700 é a mesma coisa que escrever font-weight: bold (negrito). */
         font-weight: 700;
+        
+        /* Deixa o texto inclinado (itálico). */
         font-style: italic;
       }
 
+
+      /* Agrupamos as duas últimas regras. 
+         Quando o mouse passar por cima (:hover) ou enquanto o botão do mouse estiver pressionado (:active), 
+         o visual vai mudar. */
       a:hover,
       a:active {
+        /* A cor vai deixar de ser azul e passará a ser verde instantaneamente. */
         color: green;
       }
 
+
+      /* =========================================
+         PARTE 2: EFEITOS EM OUTROS ELEMENTOS
+         ========================================= */
+
+      /* O :hover é poderoso porque não serve só para links (tag <a>)! 
+         Você pode aplicá-lo em quase qualquer tag. Aqui, estamos criando um efeito 
+         interativo para os parágrafos normais. */
       p:hover {
+        /* Quando o mouse encostar no parágrafo, ele muda de cor, 
+           aumenta de tamanho drasticamente (para 32px) e fica em negrito. */
         color: red;
         font-size: 32px;
         font-weight: 700;
       }
     </style>
+
     <p>Meu parágrafo</p>
+    
     <a href="https://www.google.com">Minha âncora</a>
   </body>
 </html>

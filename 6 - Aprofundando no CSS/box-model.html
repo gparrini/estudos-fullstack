@@ -5,43 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box Model</title>
   </head>
-  <body>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+<body>
+  <style>
+    /* =========================================
+       PARTE 1: RESET CSS E BOX-SIZING
+       ========================================= */
 
-      html {
-        font-size: 62.5%;
-      }
+    /* O asterisco (*) é o "Seletor Universal". Ele seleciona TODOS os elementos da página. */
+    * {
+      /* Os navegadores vêm com margens e espaçamentos padrão. 
+         Aqui estamos "zerando" tudo para termos controle total do layout. */
+      margin: 0;
+      padding: 0;
+      
+      /* REGRA DE OURO DO CSS: O 'box-sizing: border-box' muda a forma como o navegador calcula o tamanho da caixa.
+         Por padrão, se você der 100px de largura e 20px de padding, a caixa fica com 140px totais (100 + 20 esq + 20 dir).
+         Com o 'border-box', a caixa trava nos 100px, e o padding "empurra" para dentro, sem quebrar o layout. */
+      box-sizing: border-box;
+    }
 
-      div {
-        border: solid 2px #000;
-        padding: 1rem;
-        height: 20rem;
-      }
 
-      h1 {
-        margin-bottom: 2rem;
-        font-size: 3.2rem;
-      }
+    /* =========================================
+       PARTE 2: O TRUQUE DO "REM"
+       ========================================= */
 
-      h2 {
-        margin-bottom: 1rem;
-        font-size: 2.4rem;
-      }
+    html {
+      /* O tamanho de fonte padrão dos navegadores é 16px. 
+         A unidade 'rem' (root em) se baseia nesse valor (1rem = 16px). Fazer conta com 16 é chato.
+         Ao colocar 62.5% de 16px, o tamanho base passa a ser exatamente 10px.
+         Isso facilita a nossa vida: agora 1rem = 10px, 2.4rem = 24px, e assim por diante! */
+      font-size: 62.5%;
+    }
 
-      p {
-        margin-bottom: 0.5rem;
-        font-size: 1.6rem;
-      }
-    </style>
-    <div>
-      <h1>Meu título</h1>
-      <h2>Meu subtítulo</h2>
-      <p>Meu parágrafo</p>
-    </div>
-  </body>
+
+    /* =========================================
+       PARTE 3: ESTILOS DO BOX MODEL (A CAIXA)
+       ========================================= */
+
+    /* Seleciona a nossa caixa principal */
+    div {
+      /* border: Define a borda externa. São 3 valores:
+         1. 'solid' (linha contínua)
+         2. '2px' (espessura)
+         3. '#000' (cor preta em formato hexadecimal) */
+      border: solid 2px #000;
+      
+      /* padding: Espaço INTERNO. Como ajustamos o html lá em cima, 1rem = 10px. 
+         Isso afasta o texto da borda preta em 10px de todos os lados. */
+      padding: 1rem;
+      
+      /* height: Define uma ALTURA FIXA para a caixa. 20rem = 200px. */
+      height: 20rem;
+    }
+
+
+    /* =========================================
+       PARTE 4: TIPOGRAFIA E MARGENS (ESPAÇO EXTERNO)
+       ========================================= */
+
+    h1 {
+      /* margin-bottom: Aplica uma margem (espaço EXTERNO) apenas na parte de baixo do <h1>.
+         2rem = 20px. Isso "empurra" o <h2> para baixo, criando um respiro. */
+      margin-bottom: 2rem;
+      
+      /* Tamanho da fonte: 3.2rem = 32px */
+      font-size: 3.2rem;
+    }
+
+    h2 {
+      /* Empurra o parágrafo <p> para baixo em 10px (1rem) */
+      margin-bottom: 1rem;
+      
+      /* Tamanho da fonte: 2.4rem = 24px */
+      font-size: 2.4rem;
+    }
+
+    p {
+      /* Empurra qualquer coisa que vier DEPOIS do parágrafo em 5px (0.5rem) */
+      margin-bottom: 0.5rem;
+      
+      /* Tamanho da fonte: 1.6rem = 16px (Voltamos ao tamanho de leitura padrão da web) */
+      font-size: 1.6rem;
+    }
+  </style>
+
+  <div>
+    <h1>Meu título</h1>
+    <h2>Meu subtítulo</h2>
+    <p>Meu parágrafo</p>
+  </div>
+</body>
 </html>

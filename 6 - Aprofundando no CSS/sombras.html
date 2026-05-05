@@ -5,42 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sombras</title>
   </head>
-  <body>
+<body>
     <style>
+      /* =========================================
+         PARTE 1: RESET E BASE (REVISÃO RÁPIDA)
+         ========================================= */
       * {
         margin: 0;
         padding: 0;
       }
 
       html {
-        font-size: 62.5%;
+        /* Base 10px (1rem = 10px) */
+        font-size: 62.5%; 
       }
 
+
+      /* =========================================
+         PARTE 2: A CAIXA E AS SOMBRAS
+         ========================================= */
       div {
+        /* Afasta a caixa das bordas da tela em 100px (10rem) */
         margin: 10rem;
 
+        /* Cria um quadrado perfeito de 200px por 200px e pinta de verde */
         width: 20rem;
         height: 20rem;
         background-color: green;
 
-        /* deslocamento horizontal, deslocamento vertical, cor  */
+        /* IMPORTANTE: Para ver o efeito das sombras 1, 2, 3 e 4, 
+           você precisa comentar a sombra 5 lá embaixo! */
+
+        /* =========================================
+           SOMBRA 1: Somente Eixos e Cor
+           ========================================= */
+        /* Eixo X: 1rem (10px para a DIREITA)
+           Eixo Y: 2rem (20px para BAIXO)
+           Cor: Preto (0,0,0) com 20% de opacidade (0.2).
+           Resultado: Uma sombra "dura", sem desfoque, parecendo um bloco sólido atrás da caixa. */
         box-shadow: 1rem 2rem rgba(0, 0, 0, 0.2);
 
-        /* deslocamento horizontal, deslocamento vertical, raio de desfoque, cor  */
+        /* =========================================
+           SOMBRA 2: Adicionando o Blur (Desfoque)
+           ========================================= */
+        /* Eixo X: 1rem (Direita)
+           Eixo Y: 1rem (Baixo)
+           Blur: 2rem (Desfoca a borda da sombra em 20px, deixando-a suave e realista)
+           Cor: rgba(0, 0, 0, 0.2) */
         box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 
-        /* deslocamento horizontal, deslocamento vertical, raio de desfoque, raio de propagação, cor  */
+        /* =========================================
+           SOMBRA 3: Adicionando o Spread (Propagação) e Valores Negativos
+           ========================================= */
+        /* Eixo X: -5rem (Valores negativos vão para a ESQUERDA)
+           Eixo Y: -5rem (Valores negativos vão para CIMA)
+           Blur: 0rem (Zero desfoque, sombra dura novamente)
+           Spread: -2rem (O spread "encolhe" ou "engorda" a sombra. Como está negativo, a sombra será menor que a caixa original)
+           Cor: rgba(0, 0, 0, 0.2) */
         box-shadow: -5rem -5rem 0rem -2rem rgba(0, 0, 0, 0.2);
 
-        /* dentro/fora, deslocamento horizontal, deslocamento vertical, raio de desfoque, raio de propagação, cor  */
+        /* =========================================
+           SOMBRA 4: O efeito INSET (Sombra Interna)
+           ========================================= */
+        /* A palavra 'inset' inverte tudo: a sombra deixa de projetar para fora e passa a projetar para DENTRO da caixa. 
+           Isso cria um efeito de "buraco" ou elemento pressionado.
+           Eixos: -5rem esquerda e cima, Blur: 1rem, Spread: -2rem. */
         box-shadow: inset -5rem -5rem 1rem -2rem rgba(0, 0, 0, 0.2);
 
-        /* Adicionando mais de uma sombra */
+        /* =========================================
+           SOMBRA 5: Múltiplas Sombras (A que está ativa agora)
+           ========================================= */
+        /* Você pode aplicar quantas sombras quiser na mesma caixa, basta separá-las por VÍRGULA!
+           Aqui temos 3 sombras simultâneas:
+           1ª: Sombra preta, cima/esquerda.
+           2ª: Sombra vermelha (255, 0, 0), baixo/direita.
+           3ª: Sombra amarela (255, 255, 0), baixo/direita também (sobrepondo a vermelha com tamanhos diferentes). */
         box-shadow: -5rem -5rem 1rem -2rem rgba(0, 0, 0, 0.2),
           5rem 5rem 1rem 2rem rgba(255, 0, 0, 0.2),
           5rem -5rem 1rem 2rem rgba(255, 255, 0, 0.2);
       }
     </style>
+
     <div></div>
   </body>
 </html>
