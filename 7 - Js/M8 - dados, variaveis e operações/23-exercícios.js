@@ -8,7 +8,7 @@ let produtos = 200;
 let desconto = 40;
 let imposto = 12;
 
-let precoDesconto = produto - desconto;
+let precoDesconto = produtos - desconto;
 let precoFinal = precoDesconto + imposto;
 
 console.log('Preço final do produto: R$', precoFinal); // Exemplo de saída: R$ 172
@@ -16,6 +16,10 @@ console.log('Preço final do produto: R$', precoFinal); // Exemplo de saída: R$
 // Exercício 2: Você comprou um produto por R$ 100,00 e deseja vender com um lucro adicional de R$ 30,00.
 // Calcule o preço de venda do produto.
 // Exemplo de Saída: // "Preço de venda do produto: R$ 130" 
+let precoProduto = 100;
+let lucroProduto = 30
+let produtoFinal = precoProduto + lucroProduto
+console.log('Preço de venda do produto: R$', produtoFinal);
 
 
 // Exercício 3: Você tem um orçamento de R$ 250,00 e deseja verificar se o custo de um produto, após aplicar um desconto de R$ 50,00, está dentro do orçamento. 
