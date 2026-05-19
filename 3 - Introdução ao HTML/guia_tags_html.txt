@@ -80,3 +80,6 @@ LINKS E MÍDIA
 
 <figcaption>- Define a legenda ou descrição para o elemento <figure>.
               Exemplo: <figcaption>Figura 1: Gráfico de vendas.</figcaption>
+
+link hashtag para desafios/exercícios
+https://elegant-rabanadas-4b0397.netlify.app/
