@@ -1,0 +1,18 @@
+for ($i=1; $i -le 9; $i++) { New-Item -Name "requisito0$i.js" -ItemType File }
+
+Explicação de cada parte
+for ($i=1; $i -le 9; $i++):
+
+Esta é a estrutura do loop for, que permite executar um bloco de código várias vezes.
+$i=1: Inicializa a variável $i com o valor 1, representando o ponto de partida.
+$i -le 9: Define a condição para o loop, que significa "enquanto $i for menor ou igual a 9". 
+Quando $i atinge o valor 10, o loop para.
+$i++: Incrementa $i em 1 a cada iteração do loop. Isso faz com que o loop avance de 1 a 9.
+{ New-Item -Name "requisito0$i.js" -ItemType File }:
+
+Este é o bloco de código executado a cada vez que o loop passa por uma nova iteração.
+New-Item: Comando do PowerShell usado para criar um novo item (no caso, um arquivo).
+-Name "requisito0$i.js": Define o nome do arquivo a ser criado.
+"requisito0$i.js": Usa uma expressão com "requisito0$i" para criar nomes dinâmicos de arquivo.
+$i é substituído pelo valor atual da variável na iteração do loop, resultando em nomes de arquivo como requisito01.js, requisito02.js, e assim por diante.
+-ItemType File: Especifica que o item a ser criado é um arquivo (e não uma pasta, por exemplo).
