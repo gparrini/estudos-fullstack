@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atributo vs. addEventListener</title>
+  </head>
+  <body>
+    <h1>Duferenças entre atributos e addEventListener</h1>
+
+    <button id="meuBotao">Clique Aqui</button>
+
+    <script>
+      //manipulador de evento - handler
+      const botao = document.getElementById("meuBotao");
+
+      // utilizar o addEventListener para adicionar dois manipladores de evento de clique
+      botao.addEventListener("click", function (evento) {
+        console.log(
+          "Manipulador de evento 1 adicionado com o addEventListener"
+        );
+      });
+
+      botao.addEventListener("click", function (evento) {
+        console.log(
+          "Manipulador de evento 2 adicionado com o addEventListener"
+        );
+      });
+
+      // utilizar o atributo onclick para adicionar dois manipuladores de evento
+      botao.onclick = function (evento) {
+        console.log("Manipulador de evento 1 adicionado com onclick");
+      };
+
+      botao.onclick = function (evento) {
+        console.log("Manipulador de evento 2 adicionado com onclick");
+      };
+
+      botao.onclick = null;
+    </script>
+  </body>
+</html>
