@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  letter-spacing: -0.05em;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url(../fonts/AvenirLTStd-Heavy.otf);
+}
+
+.animate-deslocar {
+  animation-timeline: view(0% 0%);
+  animation-duration: 1ms;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+.animate-deslocar-75 {
+  animation-timeline: view(75% 0%);
+}
+
+.animate-deslocar-aprox {
+  animation-name: deslocar-aprox;
+}
+
+.animate-deslocar-rg {
+  animation-name: deslocar-rg;
+}
+.animate-deslocar-modelo-rg {
+  animation-name: deslocar-modelo-rg;
+}
+
+.animate-deslocar-dinheiro {
+  animation-name: deslocar-dinheiro;
+}
+
+@keyframes deslocar-aprox {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+@keyframes deslocar-rg {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-50%, -80%);
+  }
+}
+
+@keyframes deslocar-modelo-rg {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, -80%);
+  }
+}
+
+@keyframes deslocar-dinheiro {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,9 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Responsividade e Otimizações) é criar as media queries necessárias para que o Layout fique perfeito em todas as telas.
+
+Lembre de consultar o site da Hashtag para ver quais quebras foram feitas e para pegar as imagens que mudam com o tamanho de tela.
+
+PS: você não precisa seguir as quebras feitas no site da Hashtag. Se preferir fazer de outra forma, pode seguir do jeito que achar melhor!
+
+Divirta-se!

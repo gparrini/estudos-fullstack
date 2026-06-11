@@ -1,0 +1,245 @@
+.s-produto {
+  @include flex($gap: 3.12rem);
+  padding: 0 4.88rem;
+
+  @include respond(medium) {
+    padding: 0 3.12rem;
+  }
+
+  @include respond(medium-small) {
+    flex-wrap: wrap;
+  }
+
+  &__informacoes {
+    @include flex($direction: column, $gap: 2.97vw);
+    min-width: 33%;
+  }
+
+  &__breadcrumbs {
+    & span {
+      &:first-child {
+        &::before {
+          content: "";
+        }
+      }
+
+      &::before {
+        content: ">";
+        margin-right: 0.4rem;
+      }
+    }
+
+    & a {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: $cor-preta;
+        transition: width ease-in 0.2s;
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    & a,
+    & p {
+      display: inline;
+      text-decoration: none;
+      font-size: 1.33rem;
+      color: inherit;
+    }
+  }
+
+  &__infos {
+    @include flex($direction: column, $gap: 1.6rem);
+  }
+
+  &__titulo {
+    font-family: serif;
+    font-size: 3.9rem;
+
+    @include respond(medium) {
+      font-size: 3.32rem;
+    }
+  }
+
+  &__preco {
+    font-weight: 500;
+    font-size: 3.32rem;
+
+    @include respond(small) {
+      // font-size: 1.6rem;
+    }
+
+    & sup {
+      font-size: 1.92rem;
+      top: 2px;
+      position: relative;
+
+      @include respond(small) {
+        // font-size: 2.3rem;
+        // top: 5px;
+      }
+    }
+  }
+
+  &__cor {
+    @include flex($direction: column, $gap: 0.6rem);
+
+    &-nome {
+      font-size: 1.33rem;
+
+      & span {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__cores {
+    @include flex($gap: 1rem);
+
+    &-item {
+      width: 3.2rem;
+      height: 3.2rem;
+      border-radius: 50%;
+      border: solid 1px $cor-cinza-muito-claro;
+      cursor: pointer;
+
+      &--selecionado {
+        border-color: $cor-preta;
+      }
+    }
+  }
+
+  &__tamanho {
+    @include flex($direction: column, $gap: 0.6rem);
+
+    &-nome {
+      font-size: 1.33rem;
+
+      & span {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__tamanhos {
+    @include flex($gap: 1rem);
+
+    &-item {
+      @include flex($align: center, $justify: center);
+      width: 3.2rem;
+      height: 3.2rem;
+      border: solid 1px $cor-preta;
+      cursor: pointer;
+
+      &--selecionado {
+        background-color: $cor-preta;
+        color: $cor-branca;
+      }
+    }
+  }
+
+  &__adicicionar {
+    @extend %botao-verde;
+  }
+
+  &__descricao {
+    border-top: solid 1px $cor-cinza-claro;
+    border-bottom: solid 1px $cor-cinza-claro;
+    padding: 2rem 0;
+
+    &-titulo {
+      color: $cor-cinza-escuro;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding-bottom: 2rem;
+      border-bottom: solid 1px $cor-cinza-claro;
+    }
+
+    &-textos {
+      @include flex($direction: column, $gap: 1.6rem);
+      padding-top: 2rem;
+    }
+  }
+
+  &__carrossel {
+    @include flex($direction: column, $gap: 1.6rem, $align: center);
+    overflow: hidden;
+
+    &-itens {
+      @include flex($wrap: wrap, $gap: 0.6rem);
+
+      @include respond(medium-small) {
+        min-width: 100%;
+        flex-wrap: nowrap;
+        gap: 0;
+      }
+    }
+
+    &-img {
+      width: calc(50% - 0.3rem);
+
+      @include respond(medium-small) {
+        width: auto;
+        min-width: 100%;
+      }
+    }
+
+    &-botoes {
+      display: none;
+
+      @include respond(medium-small) {
+        @include flex($gap: 0.6rem);
+      }
+    }
+
+    &-botao {
+      width: 1.4rem;
+      height: 1.4rem;
+      border-radius: 50%;
+      background-color: $cor-cinza-muito-claro;
+      cursor: pointer;
+
+      &--selecionado {
+        background-color: $cor-cinza;
+      }
+    }
+  }
+}
+
+.similares {
+  @include flex($direction: column, $gap: 4.88rem);
+  padding: 0 4.88rem;
+
+  @include respond(medium) {
+    padding: 0 3.12rem;
+  }
+
+  &__titulo {
+    font-weight: 400;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+
+    @include respond(medium) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond(medium-small) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

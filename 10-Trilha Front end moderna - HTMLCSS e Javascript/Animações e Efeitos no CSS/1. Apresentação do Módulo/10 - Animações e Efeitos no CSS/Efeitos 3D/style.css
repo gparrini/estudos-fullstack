@@ -1,0 +1,45 @@
+/* Padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #303030;
+}
+
+/* Efeitos 3D */
+
+.bloco {
+  margin: 5rem;
+
+  & div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+
+    &:nth-child(1) {
+      background-color: lightgreen;
+    }
+
+    &:nth-child(2) {
+      background-color: lightcoral;
+    }
+
+    &:nth-child(3) {
+      background-color: lightblue;
+    }
+  }
+}

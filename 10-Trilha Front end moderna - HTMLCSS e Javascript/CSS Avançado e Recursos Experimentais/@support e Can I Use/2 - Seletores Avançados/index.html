@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletores Avançados</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Seletores Avançados</h1>
+
+    <div>
+      <p>focus, focus-visible e focus-within</p>
+
+      <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" />
+
+        <a href="">Aqui tem um link</a>
+
+        <p>Não é descendente direto da div</p>
+
+        <form action="">
+          <p>Não é descendente direto da div</p>
+        </form>
+
+        <button>Clique aqui</button>
+      </form>
+    </div>
+
+    <div>
+      <p>first-child, last-child e nth-child</p>
+
+      <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+        <li>Quarto item</li>
+        <li>Quinto item</li>
+        <li>Sexto item</li>
+        <li>Sétimo item</li>
+        <li>Oitavo item</li>
+      </ol>
+    </div>
+
+    <div class="div1">
+      <!-- <img src="" alt="" /> -->
+
+      <p>> (filho), + (irmão imediatamente após), ~ (irmãos seguintes)</p>
+
+      <p>
+        > (descendente direto), + (o primeiro elemento imediatamente após), ~
+        (todos elementos seguintes)
+      </p>
+
+      <div></div>
+
+      <img src="" alt="" />
+
+      <p>Segundo parágrafo descendente da div</p>
+    </div>
+
+    <div>
+      <p>
+        Atributos (= [exatamente igual], ~= [contém a palavra inteira], |=
+        [exatamente valor ou começa com valor- (geralmente no atributo lang)],
+        ^= [começa com], $= [termina com], *= (contém o texto))
+      </p>
+
+      <a href="https://www.hashtagtreinamentos.com" id="id"
+        >https://www.hashtagtreinamentos.com</a
+      >
+
+      <a href="http://www.hashtagtreinamentos.com" class="hashtag treinamentos"
+        >http://www.hashtagtreinamentos.com</a
+      >
+
+      <a target="_blank" href="https://www.google.com.br"
+        >https://www.google.com.br</a
+      >
+
+      <a target href="https://www.youtube.com">https://www.youtube.com</a>
+
+      <input type="text" required />
+    </div>
+
+    <div>
+      <p>not(), is(), where(), has()</p>
+    </div>
+  </body>
+</html>

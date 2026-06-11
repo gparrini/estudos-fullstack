@@ -1,0 +1,429 @@
+=== RELATÓRIO DE SUBSTITUIÇÃO DE ARQUIVOS ZIP ===
+Data e Hora do Início: 11/06/2026 18:31:53
+Diretório Raiz: c:\estudos-fullstack\estudos-fullstack
+Total de arquivos ZIP processados e excluídos com sucesso: 84
+Total de falhas (mantidos intocados): 0
+=================================================
+
+--- LISTA DE ARQUIVOS MODIFICADOS ---
+
+1. Arquivo: Do Zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 1\Do Zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 1\Do Zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+2. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 1\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 1\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+3. Arquivo: Do zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 2\Do zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 2\Do zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+4. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 2\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Animações e Efeitos no CSS\1. Apresentação do Módulo\10 - Animações e Efeitos no CSS\Desafio 2\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+5. Arquivo: Do zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Componentes Personalizados no HTML\1. Apresentação do Módulo\8 - Componentes Personalizados no HTML\Desafio 2\Do zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Componentes Personalizados no HTML\1. Apresentação do Módulo\8 - Componentes Personalizados no HTML\Desafio 2\Do zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+6. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Componentes Personalizados no HTML\1. Apresentação do Módulo\8 - Componentes Personalizados no HTML\Desafio 2\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Componentes Personalizados no HTML\1. Apresentação do Módulo\8 - Componentes Personalizados no HTML\Desafio 2\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+7. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Carrossel Infinito - Desafio\Apresentando o Desafio\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Carrossel Infinito - Desafio\Apresentando o Desafio\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+8. Arquivo: Projeto%20Tailwind%20-%20Aula.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Carrossel Infinito - Desafio\Apresentando o Desafio\Projeto%20Tailwind%20-%20Aula.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Carrossel Infinito - Desafio\Apresentando o Desafio\Projeto%20Tailwind%20-%20Aula
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+9. Arquivo: webfontkit-20241024-165935.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Layout com subgrid\7 - Otimizações e Performance\Upload local de fonte otimizada - Font Squirrel\Não otimizadas\webfontkit-20241024-165935.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\CSS Avançado e Recursos Experimentais\Layout com subgrid\7 - Otimizações e Performance\Upload local de fonte otimizada - Font Squirrel\Não otimizadas\webfontkit-20241024-165935
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+10. Arquivo: Do Zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 1\Do Zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 1\Do Zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+11. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 1\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 1\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+12. Arquivo: Do zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 2\Do zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 2\Do zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+13. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 2\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Flexbox no CSS\1. Apresentação do Módulo\7 - Flexbox no CSS\Desafio 2\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+14. Arquivo: Do Zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Float no CSS\1. Apresentação do Módulo\12 - Float no CSS\Desafio\Do Zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Float no CSS\1. Apresentação do Módulo\12 - Float no CSS\Desafio\Do Zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+15. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Float no CSS\1. Apresentação do Módulo\12 - Float no CSS\Desafio\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Float no CSS\1. Apresentação do Módulo\12 - Float no CSS\Desafio\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+16. Arquivo: Do%20zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Framework - Bootstrap\1. Apresentação do Módulo\Apresentação do Desafio\Do%20zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Framework - Bootstrap\1. Apresentação do Módulo\Apresentação do Desafio\Do%20zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+17. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Framework - Bootstrap\1. Apresentação do Módulo\Apresentação do Desafio\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Framework - Bootstrap\1. Apresentação do Módulo\Apresentação do Desafio\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+18. Arquivo: Do Zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 1\Do Zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 1\Do Zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+19. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 1\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 1\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+20. Arquivo: Do zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 2\Do zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 2\Do zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+21. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 2\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Grid no CSS\1. Apresentação do Módulo\9 - Grid no CSS\Desafio 2\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+22. Arquivo: Do Zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Desafio\Do Zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Desafio\Do Zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+23. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Desafio\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Desafio\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+24. Arquivo: Exemplo Prático.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Exemplo Prático\Exemplo Prático.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Metodologia BEM\1. Apresentação do Módulo\13 - Metodologia BEM\Exemplo Prático\Exemplo Prático
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+25. Arquivo: Gabarito%20-%20Projeto%20de%20E-commerce.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+26. Arquivo: Projeto%20de%20E-commerce.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Projeto%20de%20E-commerce.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Projeto%20de%20E-commerce
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+27. Arquivo: Do zero.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Responsividade e Otimizações\1. Apresentação do Módulo\11 - Responsividade e Otimizações\Desafio 2\Do zero.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Responsividade e Otimizações\1. Apresentação do Módulo\11 - Responsividade e Otimizações\Desafio 2\Do zero
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+28. Arquivo: Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Responsividade e Otimizações\1. Apresentação do Módulo\11 - Responsividade e Otimizações\Desafio 2\Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Responsividade e Otimizações\1. Apresentação do Módulo\11 - Responsividade e Otimizações\Desafio 2\Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+29. Arquivo: Aula%2029.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\29. Criando o Componente Header\Criando o Componente Header\Aula%2029.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\29. Criando o Componente Header\Criando o Componente Header\Aula%2029
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+30. Arquivo: Aula%2031.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\31. Criando a Estilização Global\Criando a Estilização Global\Aula%2031.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\31. Criando a Estilização Global\Criando a Estilização Global\Aula%2031
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+31. Arquivo: Aula%2033.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\33. Criando o Componente Profile - parte 1\Criando o Componente Profile - parte 1\Aula%2033.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Introdução ao React\33. Criando o Componente Profile - parte 1\Criando o Componente Profile - parte 1\Aula%2033
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+32. Arquivo: assets.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Projeto Front-End de um ECommerce com React\5. Posicionando os Assets\Posicionando os Assets\assets.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\11-Trilha Front end Avançada - React\Projeto Front-End de um ECommerce com React\5. Posicionando os Assets\Posicionando os Assets\assets
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+33. Arquivo: Gabarito_EventoNodeJS.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Eventos em NodeJS\6. Herdando a emissão de eventos\Apresentação dos Exercícios\Gabarito_EventoNodeJS.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Eventos em NodeJS\6. Herdando a emissão de eventos\Apresentação dos Exercícios\Gabarito_EventoNodeJS
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+34. Arquivo: Aula%203%20-%20Versao%20final.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\3. Roteamento avançado\Roteamento avançado\Aula%203%20-%20Versao%20final.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\3. Roteamento avançado\Roteamento avançado\Aula%203%20-%20Versao%20final
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+35. Arquivo: Aula%203%20-%20Versao%20inicial.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\3. Roteamento avançado\Roteamento avançado\Aula%203%20-%20Versao%20inicial.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\3. Roteamento avançado\Roteamento avançado\Aula%203%20-%20Versao%20inicial
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+36. Arquivo: Aula%205%20-%20versao%20final.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\5. Tratando erros com middleware\Tratando erros com middleware\Aula%205%20-%20versao%20final.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\5. Tratando erros com middleware\Tratando erros com middleware\Aula%205%20-%20versao%20final
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+37. Arquivo: Aula%205%20-%20versao%20inicial.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\5. Tratando erros com middleware\Tratando erros com middleware\Aula%205%20-%20versao%20inicial.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\12-Trilha Back End moderno - Javascript e Node.js\Middlewares\5. Tratando erros com middleware\Tratando erros com middleware\Aula%205%20-%20versao%20inicial
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+38. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\1. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\1. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+39. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\1. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\1. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 01\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+40. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+41. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+42. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\10. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 10\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+43. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+44. Arquivo: hashbnb-youtube%20Main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\hashbnb-youtube%20Main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\hashbnb-youtube%20Main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+45. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\11. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 11\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+46. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+47. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+48. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\12. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 12\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+49. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+50. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+51. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\13. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 13\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+52. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+53. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+54. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\14. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 14\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+55. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+56. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+57. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\2. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 02\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+58. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+59. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+60. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\3. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 03\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+61. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+62. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+63. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\4. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 04\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+64. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+65. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+66. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\5. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 05\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+67. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+68. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+69. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\6. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 06\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+70. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+71. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+72. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\7. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 07\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+73. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+74. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+75. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\8. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 08\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+76. Arquivo: gabarito-hashbnb.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\gabarito-hashbnb.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\gabarito-hashbnb
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+77. Arquivo: hashbnb-youtube-main.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\hashbnb-youtube-main.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\hashbnb-youtube-main
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+78. Arquivo: hashbnb-youtube.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\hashbnb-youtube.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\13-Trilha Projetos FullStack\Projeto Airbnb\9. Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\Projeto Réplica do Airbnb (MongoDB, Express, React e Node) - Aula 09\hashbnb-youtube
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+79. Arquivo: ProjetoHashForms-Gabarito.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\1. Apresentação do Projeto\Apresentação do Projeto\ProjetoHashForms-Gabarito.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\1. Apresentação do Projeto\Apresentação do Projeto\ProjetoHashForms-Gabarito
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+80. Arquivo: ProjetoHashForms_BaseProjeto.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\1. Apresentação do Projeto\Apresentação do Projeto\ProjetoHashForms_BaseProjeto.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\1. Apresentação do Projeto\Apresentação do Projeto\ProjetoHashForms_BaseProjeto
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+81. Arquivo: Aula6_HashForms.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\7. Estilizando página - estrutura geral\Estilizando página - estrutura geral\Aula6_HashForms.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\8-Trilha Fundamentos - HTMLCSS e Javascript\Projeto HashForms\7. Estilizando página - estrutura geral\Estilizando página - estrutura geral\Aula6_HashForms
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+82. Arquivo: gabarito_forEach.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Funções Uma segunda abordagem\15. Exercícios - ForEach\Exercícios - ForEach\gabarito_forEach.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Funções Uma segunda abordagem\15. Exercícios - ForEach\Exercícios - ForEach\gabarito_forEach
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+83. Arquivo: Gabarito_Modulo_17.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Módulos ES6\9. Apresentação dos Exercícios e Desafios\Aula 9\Gabarito_Modulo_17.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Módulos ES6\9. Apresentação dos Exercícios e Desafios\Aula 9\Gabarito_Modulo_17
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+84. Arquivo: Classes_Dom-parte3.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Programação Orientada a Objetos - POO\22. Desafio Pizzaria Interativa - Resolução - Parte 3\Classes_Dom-parte3.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\9-Trilha Javascript Intermediário\Programação Orientada a Objetos - POO\22. Desafio Pizzaria Interativa - Resolução - Parte 3\Classes_Dom-parte3
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------

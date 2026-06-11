@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.botao {
+    padding: 8px 16px;
+    background-color: #0057e7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: backgournd-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #003f9e;
+}

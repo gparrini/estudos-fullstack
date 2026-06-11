@@ -1,0 +1,19 @@
+=== RELATÓRIO DE SUBSTITUIÇÃO DE ARQUIVOS ZIP ===
+Data e Hora do Início: 11/06/2026 18:33:01
+Diretório Raiz: c:\estudos-fullstack\estudos-fullstack
+Total de arquivos ZIP processados e excluídos com sucesso: 2
+Total de falhas (mantidos intocados): 0
+=================================================
+
+--- LISTA DE ARQUIVOS MODIFICADOS ---
+
+1. Arquivo: 16 - Projeto de E-commerce.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce\16 - Projeto de E-commerce\16 - Projeto de E-commerce.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce\16 - Projeto de E-commerce\16 - Projeto de E-commerce
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------
+2. Arquivo: Projeto de E-commerce.zip
+   De (Caminho Zip): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce\16 - Projeto de E-commerce\Projeto de E-commerce.zip
+   Para (Nova Pasta): c:\estudos-fullstack\estudos-fullstack\10-Trilha Front end moderna - HTMLCSS e Javascript\Projeto de E-commerce (SASS)\2. Configurações iniciais\Configurações iniciais\Gabarito%20-%20Projeto%20de%20E-commerce\16 - Projeto de E-commerce\Projeto de E-commerce
+   Status: ZIP original deletado; pasta criada com sucesso.
+-------------------------------------------------

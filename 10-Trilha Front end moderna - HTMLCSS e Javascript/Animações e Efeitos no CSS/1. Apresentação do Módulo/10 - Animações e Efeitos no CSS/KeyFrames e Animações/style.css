@@ -1,0 +1,100 @@
+/* Padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #303030;
+}
+
+/* KeyFrames e Animações */
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 5rem;
+
+  & .bloco {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    transform-style: preserve-3d;
+    transform: rotatex(-20deg) rotatey(35deg);
+    /* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+    /* animation-duration */
+    /* animation-delay */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ; */
+    /* animation-name: nome do keyframe; */
+    /* animation-play-state: running; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: ; */
+
+    animation: 3s cubic-bezier(0.2, 0.8, 0.6, 0.5) 3s 1 alternate both running
+      animacao-cubo;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+
+    /* transition: transform 3s ease-in-out; */
+
+    & div {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 10rem;
+
+      &.frente {
+        background-color: lightblue;
+        transform: translateZ(5rem);
+      }
+
+      &.esquerda {
+        background-color: lightgreen;
+        transform: rotatey(-90deg) translateZ(5rem);
+      }
+
+      &.topo {
+        background-color: lightcoral;
+        transform: rotatex(90deg) translateZ(5rem);
+      }
+    }
+  }
+}
+
+@keyframes animacao-cubo {
+  0% {
+    font-weight: 700;
+    transform: rotatex(-20deg) rotatey(35deg) translate(0, 0);
+  }
+
+  25% {
+    transform: rotatex(-20deg) rotatey(35deg) translate(25rem, -15rem);
+  }
+
+  50% {
+    transform: rotatex(-20deg) rotatey(35deg) translate(50rem, 15rem);
+  }
+
+  75% {
+    transform: rotatex(-20deg) rotatey(35deg) translate(75rem, 0rem);
+  }
+
+  100% {
+    transform: rotatex(-20deg) rotatey(35deg) translate(100rem, 30rem);
+  }
+}

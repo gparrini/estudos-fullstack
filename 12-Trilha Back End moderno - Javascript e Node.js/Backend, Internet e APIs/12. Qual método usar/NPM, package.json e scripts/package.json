@@ -1,0 +1,14 @@
+{
+  "name": "api-stock",
+  "version": "1.0.0",
+  "description": "API desenvolvida no curso Javascript Impressionador da Hashtag Treinamentos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --warch"
+  },
+  "keywords": [],
+  "author": "Daniel Porto",
+  "license": "ISC",
+  "type": "module"
+}

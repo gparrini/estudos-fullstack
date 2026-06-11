@@ -1,0 +1,68 @@
+/* Padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #303030;
+}
+
+/* Efeitos 3D */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  & .bloco {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    transform-style: preserve-3d;
+    transform: rotatex(-20deg) rotatey(35deg);
+    transition: transform 3s ease-in-out;
+
+    &:hover {
+      transform: rotatex(-20deg) rotatey(35deg) perspective(40rem);
+    }
+
+    & div {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10rem;
+      height: 10rem;
+
+      &.frente {
+        background-color: lightblue;
+        transform: translateZ(5rem);
+      }
+
+      &.esquerda {
+        background-color: lightgreen;
+        transform: rotatey(-90deg) translateZ(5rem);
+      }
+
+      &.topo {
+        background-color: lightcoral;
+        transform: rotatex(90deg) translateZ(5rem);
+      }
+    }
+  }
+}
+
+/* Rotate
+Scale
+Translate
+Matriz */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagens Responsivas</title>
+  </head>
+  <body>
+    <img
+      width="100%"
+      src="Imagens/banner-hero.png"
+      alt="Banner Hero"
+      srcset="
+        Imagens/banner-hero-1920.png 1920w,
+        Imagens/banner-hero-1366.png 1366w,
+        Imagens/banner-hero-1280.png 1280w,
+        Imagens/banner-hero-991.png   991w,
+        Imagens/banner-hero-767.png   767w,
+        Imagens/banner-hero-480.png   480w
+      "
+      sizes="(max-width: 480px) 480px,
+      (max-width: 767px) 767px,
+      (max-width: 991px) 991px,
+      (max-width: 1280px) 1280px,
+      (max-width: 1366px) 1366px,
+      (max-width: 1920px) 1920px,
+      3835px
+      "
+    />
+  </body>
+</html>

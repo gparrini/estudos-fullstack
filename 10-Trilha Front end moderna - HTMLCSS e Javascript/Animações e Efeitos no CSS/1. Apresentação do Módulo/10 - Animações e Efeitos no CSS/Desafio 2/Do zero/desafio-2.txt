@@ -1,0 +1,7 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Animações e Efeitos no CSS) é acrescentar as transições e animações que aprendemos na Home da Hashtag.
+
+Como não temos nenhuma animação na Home da Hashtag, vamos focar nas transições e pensar em novas possibilidades.
+
+Divirta-se!

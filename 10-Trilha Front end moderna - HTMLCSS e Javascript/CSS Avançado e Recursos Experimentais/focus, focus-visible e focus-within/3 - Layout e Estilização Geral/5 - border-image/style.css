@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  gap: 25px;
+  padding: 25px;
+}
+
+.colunas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.coluna {
+  display: grid;
+  gap: 10px;
+  /* border: solid 2px black; */
+
+  /* Bordar com gradiente e cantos arredondados */
+  padding: 20px;
+  border-radius: 20px;
+  border: transparent solid 10px;
+  background-image: linear-gradient(white, white), linear-gradient(blue, red);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  /* Borda com gradiente */
+  /* border-image: linear-gradient(blue, red) 100; */
+
+  /* Borda com imagem */
+  /* border-image: url(https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice/border-diamonds.png)
+  border-image-repeat: space;
+    30; */
+}
+
+p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  &:hover {
+    display: block;
+  }
+}

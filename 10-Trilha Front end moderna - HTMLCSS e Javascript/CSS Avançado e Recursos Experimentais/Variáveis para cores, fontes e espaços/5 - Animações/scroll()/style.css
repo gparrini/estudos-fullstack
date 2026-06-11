@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  min-width: 0;
+}
+
+img,
+iframe,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Layout */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+h1 {
+  font-size: 3.32rem;
+}
+
+section {
+  padding: 3.12rem 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 2.5rem;
+  margin-inline: auto;
+  max-width: 128rem;
+}
+
+.textos {
+  display: grid;
+  gap: 2rem;
+
+  img {
+    /* animation: aparecer linear 5s; */
+    /* animation-name: aparecer; */
+    /* animation-timing-function: linear; */
+    /* animation-timeline: view(calc(50%) 25%); */
+
+    /* transform: scale(0); */
+    animation-fill-mode: backwards;
+    justify-self: center;
+  }
+}
+
+.inset {
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  &.start {
+    top: 0;
+    /* height: calc(50vh); */
+  }
+
+  &.end {
+    bottom: 0;
+    /* height: 25vh; */
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+}
+
+.container-scroll {
+  animation: aparecer;
+  animation-timing-function: linear;
+  animation-timeline: scroll(inline self);
+  overflow-x: scroll;
+}
+
+.scrollable {
+  width: 150vw;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

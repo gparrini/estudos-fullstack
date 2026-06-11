@@ -1,0 +1,12 @@
+
+http://localhost:8000/get-unavaiable-products?id=1 
+
+Anatomia da URL
+
+http -> Protocolo
+
+localhost:8000 -> Endereço do servidor:porta
+
+get-unavaiable-products -> Endpoint
+
+?id=1 -> Query String / Parâmetros

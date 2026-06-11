@@ -1,0 +1,22 @@
+/* Definição do root com as cores do projeto */
+:root {
+  --color-background-light: #f4f4f9; /* Cor clara de fundo */
+  --color-text-dark: #333; /* Texto escuro */
+  --color-white: #ffffff; /* Branco */
+  --color-green-primary: #27ae60; /* Verde principal */
+  --color-green-hover: #218c54; /* Verde para hover */
+  --color-green-light: #e8f5e9; /* Verde claro (fundo das consultas) */
+  --color-gray-border: #ddd; /* Cinza das bordas */
+  --color-gray-label: #555; /* Cinza do texto dos labels */
+  --color-shadow: rgba(0, 0, 0, 0.1); /* Sombra leve */
+  --color-red: #ff0000; /* Vermelho (botão cancelar) */
+  --color-red-dark: #8b0000; /* Vermelho escuro para hover */
+}
+
+/* Reset básico para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}

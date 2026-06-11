@@ -1,0 +1,34 @@
+Exercício 1: Crie dois arquivos JavaScript (mathOperations.js e index.js). No
+mathOperations.js, exporte duas funções utilizando CommonJS: add(a, b) e subtract(a, b), que
+realizam as operações básicas de adição e subtração. No index.js, importe essas funções e
+utilize-as para calcular a soma e a subtração de dois números fornecidos pelo usuário.
+
+Desafio Extra: Modifique o mathOperations.js para incluir uma função multiply(a, b) e a exporte
+de forma condicional (apenas se o ambiente for de desenvolvimento).
+
+Exercício 2: Converta o módulo mathOperations.js do exercício anterior para utilizar ES
+Modules em vez de CommonJS. Implemente a exportação das funções (add, subtract, multiply)
+em um único objeto e faça as correções necessárias para que seu programa funcione
+corretamente. No index.js, corrija a importação para ES Modules.
+A função multiply pode ser executada independentemente do ambiente de execução.
+
+Desafio Extra: Observe os erros que podem ocorrer com a conversão e aplique os conceitos
+do módulo para corrigi-los.
+
+Exercício 3: Refatore o código do exercício anterior para usar a exportação nomeada (named
+exports) em vez de exportar um objeto. E no index.js, importe apenas a função add e a utilize
+para somar dois números.
+
+Para o exercício 4 - caso você não queira criar os arquivos html e css, você pode fazer o
+download da pasta Projeto_modular e utilizar os arquivos.
+
+Exercício 4: Desenvolva uma pequena aplicação de gerenciamento de usuários com HTML,
+CSS e JavaScript, seguindo os princípios de módulos ES e interatividade na página.
+Crie um módulo que exporte um objeto com várias funções relacionadas ao gerenciamento de
+usuários (e.g., addUser, deleteUser, updateUser). Utilize exportação padrão para exportar o
+objeto completo. No arquivo principal (index.js), importe o objeto completo e utilize pelo menos
+duas funções.
+
+- Crie o arquivo userManager.js para definir as funções de gerenciamento de
+usuários.
+- Crie o arquivo index.js para importar o módulo e adicionar interatividade

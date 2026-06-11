@@ -1,0 +1,7 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Grid no CSS) é transformar os posts do blog da Hashtag em uma Grade usando o que aprendemos de Grid.
+
+Lembre dos conhecimentos que adquirimos nesse módulo para deixar essa seção ainda melhor!
+
+Divirta-se!

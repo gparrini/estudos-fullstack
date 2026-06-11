@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+}
+
+main {
+  padding: 15px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.caixas {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.caixa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+}
+
+:has(> .caixa) {
+  container-type: inline-size;
+}
+
+.principal {
+  display: flex;
+  width: 60%;
+  container-name: principal;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  container-name: coluna;
+}
+
+@container (max-width: 550px) {
+  .caixa {
+    flex-direction: column;
+    font-size: 3cqw;
+  }
+
+  img {
+    max-width: 50cqw;
+  }
+}

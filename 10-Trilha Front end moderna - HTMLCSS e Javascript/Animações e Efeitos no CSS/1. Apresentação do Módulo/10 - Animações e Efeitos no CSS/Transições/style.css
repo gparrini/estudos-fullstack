@@ -1,0 +1,38 @@
+/* Padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #303030;
+}
+
+/* Transições */
+
+div {
+  width: 1500px;
+  background-color: antiquewhite;
+}
+
+p {
+  font-weight: 700;
+  font-size: 3.32rem;
+  /* transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.5, 1, 0.75, 1.25);
+  transition-delay: 2s; */
+  transition: transform 1s cubic-bezier(0.5, 1, 0.75, 1.25) 2s;
+
+  &:hover {
+    transform: translateX(1400px);
+  }
+}

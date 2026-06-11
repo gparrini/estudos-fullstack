@@ -1,0 +1,68 @@
+:root {
+  /* Tamanho de Fonte */
+  /* Minor third - 1.2 */
+  --fs-100: 0.9258rem;
+  --fs-200: 1.111rem;
+  --fs-300: 1.333rem;
+  --fs-400: 1.6rem;
+  --fs-500: 1.92rem;
+  --fs-600: 2.034rem;
+  --fs-700: 2.765rem;
+  --fs-800: 3.318rem;
+  --fs-900: 3.981rem;
+  --fs-1000: 4.778rem;
+
+  /* Tamanho de espaçamento */
+  /* Major third - 1.25 */
+  --spc-100: 0.8192rem;
+  --spc-200: 1.024rem;
+  --spc-300: 1.28rem;
+  --spc-400: 1.6rem;
+  --spc-500: 2rem;
+  --spc-600: 2.5rem;
+  --spc-700: 3.125rem;
+  --spc-800: 3.906rem;
+  --spc-900: 4.883rem;
+  --spc-1000: 6.184rem;
+
+  /* Cores - HSL = Hue (Matiz) Saturation Lightness*/
+  /* Cor Principal */
+  --clr-p-100: hsl(333, 93%, 78%);
+  --clr-p-200: hsl(333, 93%, 68%);
+  --clr-p-300: hsl(333, 93%, 58%);
+  --clr-p-400: hsl(333, 93%, 48%);
+  --clr-p-500: hsl(333, 93%, 38%);
+  --clr-p-600: hsl(333, 93%, 28%);
+  --clr-p-700: hsl(333, 93%, 18%);
+  --clr-p-800: hsl(333, 93%, 8%);
+  --clr-p-900: hsl(333, 93%, 4%);
+
+  /* Cor Complementar/Secundária - Hue - 180 */
+  --clr-s-100: hsl(153, 93%, 78%);
+  --clr-s-200: hsl(153, 93%, 68%);
+  --clr-s-300: hsl(153, 93%, 58%);
+  --clr-s-400: hsl(153, 93%, 48%);
+  --clr-s-500: hsl(153, 93%, 38%);
+  --clr-s-600: hsl(153, 93%, 28%);
+  --clr-s-700: hsl(153, 93%, 18%);
+  --clr-s-800: hsl(153, 93%, 8%);
+  --clr-s-900: hsl(153, 93%, 4%);
+}
+
+/* h1 {
+  font-size: var(--fs-800);
+} */
+
+div {
+  --largura: 400px;
+
+  width: var(--largura);
+  height: calc(var(--largura) / 2);
+  padding: calc(var(--largura) / 20);
+  margin: var(--spc-600);
+}
+
+h1 {
+  --largura: 300px;
+  margin: var(-);
+}

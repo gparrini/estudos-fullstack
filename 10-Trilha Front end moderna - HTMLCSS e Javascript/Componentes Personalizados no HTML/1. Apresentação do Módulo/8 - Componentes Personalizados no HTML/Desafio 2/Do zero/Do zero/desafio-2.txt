@@ -1,0 +1,7 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Componentes Personalizados no HTML) é criar o Popup que aparece na Home da Hashtag.
+
+Lembre-se que você pode consultar a aula que fizemos de Popup e que muitas coisas serão aproveitadas!
+
+Divirta-se!

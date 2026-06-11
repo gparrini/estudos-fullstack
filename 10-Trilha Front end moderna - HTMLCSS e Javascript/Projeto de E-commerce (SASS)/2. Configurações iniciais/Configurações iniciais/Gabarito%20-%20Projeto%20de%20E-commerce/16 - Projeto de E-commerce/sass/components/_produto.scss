@@ -1,0 +1,93 @@
+.produto {
+  @include flex($direction: column, $gap: 1.6rem);
+  text-decoration: none;
+  color: inherit;
+
+  &__botao {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+    right: 7px;
+
+    & button {
+      width: 100%;
+      background-color: $cor-branca;
+      padding: 1.6rem;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.01);
+      }
+    }
+  }
+
+  &__imagem {
+    height: auto;
+    aspect-ratio: 428/500;
+    overflow: hidden;
+    position: relative;
+
+    & img {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      transition: transform ease-in-out 0.1s;
+
+      &:hover {
+        transform: translate(0, -50%) scale(1.5);
+      }
+    }
+  }
+
+  &__textos {
+    @include flex($direction: column, $gap: 0.6rem);
+  }
+
+  &__titulo {
+    text-transform: uppercase;
+  }
+
+  &__preco {
+    @include flex($align: start, $gap: 0.6rem, $justify: space-between);
+    font-weight: 700;
+  }
+
+  &__avista {
+    font-size: 1.92rem;
+
+    @include respond(small) {
+      font-size: 1.6rem;
+    }
+
+    & sup {
+      font-size: 1.33rem;
+      position: relative;
+      top: 3px;
+
+      @include respond(small) {
+        font-size: 1.11rem;
+        top: 2px;
+      }
+    }
+  }
+
+  &__parcelado {
+    font-size: 1.6rem;
+
+    @include respond(small) {
+      font-size: 1.33rem;
+    }
+
+    & sup {
+      font-size: 1.11rem;
+      position: relative;
+      top: 3px;
+
+      @include respond(small) {
+        font-size: 0.92rem;
+        top: 2px;
+      }
+    }
+  }
+}

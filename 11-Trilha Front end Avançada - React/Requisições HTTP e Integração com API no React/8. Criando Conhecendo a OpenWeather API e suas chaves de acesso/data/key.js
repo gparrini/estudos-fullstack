@@ -1,0 +1,1 @@
+export const key = "Sua API KEY";

@@ -1,0 +1,66 @@
+.carrossel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1694/573.5;
+  overflow: hidden;
+
+  @include respond(medium) {
+    aspect-ratio: 1024/1280;
+  }
+
+  &__imagens {
+    @include flex();
+    transition: transform ease 500ms;
+  }
+
+  &__item {
+    min-width: 100%;
+    height: 100%;
+
+    & a {
+      & img {
+        &:last-child {
+          display: none;
+        }
+
+        @include respond(medium) {
+          &:first-child {
+            display: none;
+          }
+
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  &__botoes {
+    @include flex($gap: 0.82rem);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -2rem);
+    z-index: 1;
+  }
+
+  &__botao {
+    background-color: rgba($cor-cinza-claro, 0.5);
+    width: 12.5rem;
+    height: 0.2rem;
+    border-radius: 5rem;
+  }
+
+  &__preenchimento {
+    width: 1.5%;
+    height: 100%;
+    background-color: $cor-branca;
+    transition: none;
+
+    &--completo {
+      width: 100%;
+      transition: width ease-out 5s;
+    }
+  }
+}

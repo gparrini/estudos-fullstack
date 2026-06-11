@@ -1,0 +1,15 @@
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+h1 {
+  font-size: clamp(24px, 2.5vw, 40px);
+}
+
+img {
+  /* min-width: 56px;
+  width: 50vw;
+  max-width: 112px; */
+  width: clamp(56px, 50vw, 112px);
+}

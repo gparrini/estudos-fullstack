@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="meuElemento">Texto dentro do H1</h1>
+
+    <script>
+      //  Ajustar o texto de um elemento após um determinado tempo
+      setTimeout(function () {
+        document.getElementById("meuElemento").innerText =
+          "Texto alterado por Setimeout- após 5 segundos";
+        console.log("Alterei");
+      }, 5000);
+
+      // Alterar o estilo do elemento
+      setInterval(function () {
+        const elemento = document.getElementById("meuElemento");
+        elemento.style.color = elemento.style.color === "blue" ? "red" : "blue";
+      }, 1000);
+    </script>
+  </body>
+</html>

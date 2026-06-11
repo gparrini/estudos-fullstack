@@ -1,0 +1,151 @@
+/* geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  gap: 35px;
+  padding: 20px;
+}
+
+div {
+  display: grid;
+  gap: 10px;
+  width: max-content;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* focus, focus-visible e focus-within */
+
+input:focus {
+  outline: red solid 1px;
+}
+
+input:focus-visible {
+  outline: blue solid 1px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: red solid 1px;
+}
+
+a {
+  color: inherit;
+}
+
+form:focus-within {
+  padding: 20px;
+  outline: red solid 1px;
+  background-color: black;
+  color: white;
+}
+
+/* first-child, last-child e nth-child */
+
+li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: blue;
+}
+
+/* Número especifico, even (par) e odd (ímpar) */
+li:nth-child(odd) {
+  color: red;
+}
+
+/* A*n + B */
+
+/* A = Passo ou Step */
+/* n de 0 ao infinito (até o último item da listinha) */
+/* B = Offset ou Distância */
+
+li:nth-child(3n + 1) {
+  border: dashed 1px purple;
+}
+
+/* >, +, ~ */
+
+div > p {
+  font-style: italic;
+  color: green;
+}
+
+div > form {
+  outline: solid 1px black;
+  padding: 10px;
+}
+
+div + p {
+  color: blue;
+}
+
+div ~ p {
+  color: red;
+}
+
+/* Atributos (=, ~=, |=, ^=, $=, *=)*/
+
+[target="_blank"] {
+  color: red;
+}
+
+[href*="hashtag"] {
+  color: blue;
+}
+
+[lang|="en"] {
+  font-family: sans-serif;
+}
+
+[href$=".com"] {
+  color: brown;
+}
+
+/* not(), is(), where(), has() */
+
+a:not([href$=".com"]) {
+  color: yellowgreen;
+}
+
+/* LVHA */
+
+/* div a:is(:link, :visited, :hover, :active, #id) {
+  text-decoration: none;
+  border: solid 1px black;
+} */
+
+div a:link,
+div a:visited,
+div a:hover,
+div a:active {
+  text-decoration: underline;
+}
+
+div a:where(:link, :visited, :hover, :active, #id) {
+  text-decoration: none;
+  border: solid 1px black;
+}
+
+/* div form {
+} */
+
+div:has(:focus-within) {
+  padding: 50px;
+  background-color: black;
+  color: white;
+}

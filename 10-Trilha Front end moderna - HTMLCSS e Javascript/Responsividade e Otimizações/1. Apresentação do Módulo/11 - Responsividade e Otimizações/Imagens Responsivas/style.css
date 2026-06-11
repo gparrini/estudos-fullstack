@@ -1,0 +1,28 @@
+div {
+  background-image: url(Imagens/banner-hero.png);
+  background-image: -webkit-image-set(
+    "Imagens/banner-hero-1920.png" 1x,
+    "Imagens/banner-hero.png" 2x
+  );
+  /* background-image: image-set(
+    "Imagens/banner-hero-1920.png" 1x,
+    "Imagens/banner-hero.png" 2x
+  ); */
+  background-position: 50%;
+  background-size: cover;
+  height: 471px;
+}
+
+/* @media all and (max-width: 767px) {
+  div {
+    background-image: url(Imagens/banner-hero-mobile.png);
+    height: 319px;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+  div {
+    background-image: url(Imagens/banner-hero-1920.png);
+    height: 700px;
+  }
+} */

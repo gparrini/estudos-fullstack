@@ -1,0 +1,36 @@
+.container {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  border-radius: 1rem;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  margin: 10px;
+}
+/* HSLA é um modelo de cores baseado em Matiz (Hue), Saturação (Saturation),
+ Luminosidade (Lightness) e Alpha (transparência).
+ */
+
+.avatar {
+  border-radius: 100%;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.5);
+  margin: 1rem auto;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.name {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.info {
+    border-top: solid 1px #b39ddb;
+    padding: 0.75rem 0;
+    color: #333;
+    font-size: 0.95rem;
+}

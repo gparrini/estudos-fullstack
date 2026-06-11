@@ -1,0 +1,38 @@
+@media all and (max-width: 64.7em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* Cabeçalho */
+  .cabecalho {
+    padding: 1.6rem 2rem;
+
+    & img {
+      width: 7.73vw;
+    }
+  }
+
+  /* Conteúdos Gratuitos */
+  .img-conteudos {
+    max-width: 41vw;
+  }
+
+  /* O que falam */
+  .container-oquefalam {
+    margin: 0 8.6rem;
+  }
+
+  /* Footer */
+  .container-rodape {
+    gap: 3.77vw;
+    justify-content: space-between;
+
+    & .logo-footer {
+      width: 13.9vw;
+    }
+
+    & .rodape-coluna {
+      width: 39vw;
+    }
+  }
+}

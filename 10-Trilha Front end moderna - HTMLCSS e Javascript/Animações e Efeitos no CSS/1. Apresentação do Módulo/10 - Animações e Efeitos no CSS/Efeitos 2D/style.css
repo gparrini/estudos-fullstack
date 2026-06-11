@@ -1,0 +1,66 @@
+/* Padrão */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #303030;
+}
+
+/* Efeitos 2D */
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  padding: 1.9rem;
+  text-align: center;
+
+  &.div1 {
+    background-color: red;
+    transform: translate(2rem, 0.5rem);
+  }
+
+  &.div2 {
+    background-color: blue;
+    color: white;
+    transform: rotate(10deg);
+  }
+
+  &.div3 {
+    background-color: green;
+    color: white;
+    transition: transform 0.3s ease-in;
+
+    &:hover {
+      transform: scale(0.5, 1.5);
+    }
+  }
+
+  &.div4 {
+    background-color: yellow;
+    /* transform: skew(10deg, 15deg); */
+    /* transform: scale(0.8, 1.2); */
+    /* transform: translate(10rem, 20rem); */
+    transform: matrix(0.8, 0.267949, 0.176327, 1.2, 100, 200);
+  }
+
+  &.div5 {
+    background-color: purple;
+    color: white;
+    /* ScaleX, SkewY, SkewX, ScaleY, TranslateX, TranslateY */
+    transform: matrix();
+  }
+}

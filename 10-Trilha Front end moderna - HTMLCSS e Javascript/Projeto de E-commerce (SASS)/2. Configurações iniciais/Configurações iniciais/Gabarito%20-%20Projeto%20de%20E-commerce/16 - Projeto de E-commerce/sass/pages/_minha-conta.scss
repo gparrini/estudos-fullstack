@@ -1,0 +1,84 @@
+.conta {
+  @include flex($direction: column, $align: start, $gap: 3.12rem);
+  padding: 9.54rem 3.12rem;
+  background-color: $cor-off-white-2;
+
+  @include respond(medium) {
+    padding: 6.1rem 3.12rem;
+  }
+
+  @include respond(small) {
+    padding: 3.12rem;
+  }
+
+  &__container {
+    @include flex($direction: column, $align: start, $gap: 2.5rem);
+    padding: 3.9rem;
+    background-color: $cor-branca;
+    width: 80%;
+    max-width: 100rem;
+    margin: auto;
+
+    @include respond(small) {
+      width: 100%;
+      padding: 3.12rem;
+    }
+  }
+
+  &__form {
+    @include flex($wrap: wrap, $gap: 1.6rem);
+    padding: 3.12rem;
+    border-radius: 8px;
+    background-color: $cor-off-white;
+    width: 100%;
+
+    @include respond(small) {
+      padding: 2.5rem;
+    }
+  }
+
+  &__item {
+    position: relative;
+    width: calc(50% - 0.8rem);
+
+    @include respond(small) {
+      width: 100%;
+    }
+
+    &--email {
+      width: 100%;
+    }
+
+    & input {
+      padding: 1rem 0.6rem;
+      border: 1px solid $cor-cinza;
+      border-radius: 4px;
+      background-color: transparent;
+      width: 100%;
+
+      &::placeholder {
+        font-size: 1.33rem;
+      }
+
+      &:focus-visible {
+        outline: none;
+      }
+
+      &[type="number"]::-webkit-inner-spin-button,
+      &[type="number"]::-webkit-outer-spin-button {
+        display: none;
+      }
+    }
+
+    & label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(10px, -50%);
+      background-color: $cor-off-white;
+      line-height: 1;
+      padding: 0 0.3rem;
+      font-size: 1.33rem;
+    }
+  }
+}

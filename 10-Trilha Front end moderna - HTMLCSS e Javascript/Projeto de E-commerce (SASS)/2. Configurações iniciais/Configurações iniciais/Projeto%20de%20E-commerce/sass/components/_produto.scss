@@ -1,0 +1,56 @@
+.produto {
+  @include flex($direction: column, $gap: 1.6rem);
+  text-decoration: none;
+  color: inherit;
+
+  &__imagem {
+    height: auto;
+    aspect-ratio: 428/500;
+    overflow: hidden;
+    position: relative;
+
+    & img {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      transition: transform ease-in-out 0.1s;
+
+      &:hover {
+        transform: translate(0, -50%) scale(1.5);
+      }
+    }
+  }
+
+  &__textos {
+    @include flex($direction: column, $gap: 0.6rem);
+  }
+
+  &__titulo {
+    text-transform: uppercase;
+  }
+
+  &__preco {
+    @include flex($align: start, $gap: 0.6rem, $justify: space-between);
+    font-weight: 700;
+  }
+
+  &__avista {
+    font-size: 1.92rem;
+
+    & sup {
+      font-size: 1.33rem;
+      position: relative;
+      top: 3px;
+    }
+  }
+
+  &__parcelado {
+    font-size: 1.6rem;
+
+    & sup {
+      font-size: 1.11rem;
+      position: relative;
+      top: 3px;
+    }
+  }
+}

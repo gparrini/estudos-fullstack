@@ -1,0 +1,14 @@
+Positivo:
+	Utility-first
+	Desenvolvimento rápido
+	Customizável
+	Responsivo
+	CSS compacto
+
+Negativo:
+	Curva de aprendizado
+	HTML gigantesco
+	Mistura do CSS com HTML
+	Complexidade em estilos mais customizados
+	Overkill para projetos pequenos
+	Precisa de build

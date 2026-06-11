@@ -1,0 +1,84 @@
+/* Definindo a ordem de prioridade */
+/* Maior prioridade: components */
+@layer abstracts, base, components;
+
+@layer abstracts {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer base {
+  * {
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  @layer button {
+    button {
+      background-color: brown;
+      color: white;
+    }
+  }
+
+  @layer form {
+    button {
+      background-color: blue;
+      color: yellow;
+    }
+  }
+
+  button {
+    background-color: red;
+    color: white;
+  }
+
+  * {
+    margin: 50px;
+  }
+}
+
+/* @layer abstracts {
+  * {
+    margin: 50px;
+    color: blue;
+    padding: 0;
+    box-sizing: border-box;
+  }
+} */
+
+* {
+  margin: 75px;
+}
+
+/* body {
+  margin: 5px;
+} */
+
+/* Ordem de Prioridade:
+Unlayered (Sem camada)
+Última camada escrita
+Penúltima camada escrita
+....
+ 
+No exemplo (sem !important):
+
+Unlayered
+Components
+Base
+Abstracts
+
+No exemplo (com !important):
+
+Abstracts !important
+Base !important
+Components !important
+Unlayered
+Components
+Base
+Abstracts*/

@@ -1,0 +1,328 @@
+.rodape {
+  font-size: 1.33rem;
+  padding-top: 2.5rem;
+
+  &--carrinho {
+    .rodape__secao-formulario {
+      display: none;
+    }
+  }
+
+  &--conta {
+    padding-top: 0;
+  }
+
+  &__secao-informacoes {
+    padding: 3.12rem 2rem;
+  }
+
+  &__container {
+    @include flex($gap: 1.6rem, $justify: space-between);
+    max-width: 136.6rem;
+    margin: 0 auto;
+
+    @include respond(medium) {
+      flex-direction: column;
+      gap: 3.12rem;
+      align-items: center;
+    }
+  }
+
+  &__secao-formulario {
+    background-color: $cor-off-white;
+    padding: 3.12rem 2rem;
+  }
+
+  &__app-newsletter {
+    @include flex($gap: 4.88rem, $align: center, $justify: space-between);
+    max-width: 136.6rem;
+    margin: 0 auto;
+
+    @include respond(big) {
+      gap: 3.12rem;
+    }
+
+    @include respond(medium) {
+      flex-direction: column;
+      max-width: 66rem;
+    }
+  }
+
+  &__app {
+    @include respond(medium) {
+      flex-direction: column;
+    }
+  }
+
+  &__app,
+  &__newsletter {
+    @include flex($gap: 1rem, $align: center);
+
+    @include respond(medium) {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+
+  &__container {
+    &-app,
+    &-newsletter {
+      @include flex($direction: column, $gap: 1.6rem);
+    }
+
+    &-app {
+      max-width: 50rem;
+
+      @include respond(big) {
+        max-width: 38rem;
+      }
+    }
+
+    &-newsletter {
+      max-width: 50%;
+
+      @include respond(big) {
+        max-width: 100%;
+      }
+    }
+  }
+
+  &__logo {
+    min-width: 1.8rem;
+    height: 2.3rem;
+  }
+
+  &__texto-newsletter {
+    font-size: 3.32rem;
+    font-family: serif;
+    font-weight: 700;
+    text-wrap: nowrap;
+    line-height: 1;
+  }
+
+  &__imagens-loja {
+    max-height: 4.2rem;
+  }
+
+  &__informacoes {
+    @include flex($gap: 1.6rem, $justify: space-between);
+    max-width: 60%;
+    width: 100%;
+
+    @include respond(medium) {
+      max-width: 66rem;
+    }
+
+    @include respond(small) {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  }
+
+  &__informacao {
+    @include flex($direction: column, $gap: 1.6rem);
+
+    @include respond(medium) {
+      flex: 1;
+    }
+
+    @include respond(small) {
+      min-width: 100%;
+    }
+  }
+
+  &__links {
+    @include flex($direction: column, $gap: 0.65rem);
+    list-style: none;
+    color: $cor-cinza-pouco-escuro;
+
+    & a {
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+        transition: all 0.3s ease-in-out 0s;
+      }
+    }
+  }
+
+  &__titulo {
+    font-family: serif;
+    font-size: 1.92rem;
+    font-weight: 700;
+  }
+
+  &__atendimento {
+    @include flex($direction: column, $gap: 1.6rem);
+    width: 100%;
+    max-width: 46.4rem;
+
+    @include respond(big) {
+      max-width: 35rem;
+    }
+
+    @include respond(medium) {
+      max-width: 60rem;
+      text-align: center;
+    }
+  }
+
+  &__ancoras {
+    @include flex(
+      $gap: 1rem,
+      $justify: space-between,
+      $wrap: wrap,
+      $align: start
+    );
+
+    @include respond(small) {
+      gap: 2rem;
+    }
+  }
+
+  &__ancora-icone {
+    @include flex($gap: 1rem, $align: center);
+    text-decoration-thickness: 1px;
+    color: inherit;
+    width: 50%;
+
+    @include respond(medium) {
+      width: auto;
+      flex: 1;
+      justify-content: center;
+    }
+
+    @include respond(small) {
+      min-width: 100%;
+    }
+  }
+
+  &__icone {
+    width: 2rem;
+  }
+
+  &__whatsapp {
+    @include flex($direction: column, $gap: 0.8rem);
+
+    @include respond(medium) {
+      flex: 1;
+    }
+
+    & .rodape__ancora-icone {
+      width: 100%;
+    }
+  }
+
+  &__horarios {
+    font-size: 1.11rem;
+  }
+
+  &__redes {
+    margin-top: 2rem;
+    @include flex($gap: 1rem, $justify: space-evenly);
+  }
+
+  &__rede {
+    opacity: 0.6;
+    filter: grayscale(1);
+
+    &:hover {
+      opacity: 1;
+      filter: none;
+    }
+  }
+
+  &__diferenciais {
+    @include flex($gap: 2rem);
+    margin: 6.1rem auto;
+
+    @include respond(small) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__diferencial {
+    @include flex($direction: column, $gap: 0.65rem, $align: center);
+    opacity: 0.5;
+    max-width: 25rem;
+    text-align: center;
+
+    @include respond(small) {
+      min-width: 100%;
+    }
+
+    &-imagem {
+      max-height: 5rem;
+      width: auto;
+    }
+
+    &-titulo {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+  }
+
+  &__certificacoes {
+    @include flex($gap: 2rem, $justify: space-between);
+    width: 100%;
+
+    @include respond(medium) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 4.88rem;
+    }
+  }
+
+  &__certificacao {
+    @include flex($direction: column, $gap: 1.6rem);
+
+    @include respond(medium) {
+      &:nth-child(2) {
+        order: -1;
+        width: 100%;
+      }
+    }
+
+    &-titulo {
+      font-size: 1.6rem;
+      font-weight: 600;
+
+      @include respond(medium) {
+        text-align: center;
+      }
+
+      &--centralizado {
+        text-align: center;
+      }
+    }
+  }
+
+  &__certificados {
+    @include flex($gap: 1.02rem, $align: center);
+
+    @include respond(medium) {
+      justify-content: center;
+    }
+  }
+
+  &__certificado {
+    &--opacidade {
+      opacity: 0.3;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__secao-empresa {
+    @include flex($justify: center);
+    background-color: $cor-off-white-2;
+    font-size: 1.11rem;
+    opacity: 0.5;
+    padding: 1.28rem;
+    text-align: center;
+  }
+}

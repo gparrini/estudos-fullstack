@@ -1,0 +1,37 @@
+.banner {
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+
+    @include respond(medium) {
+      gap: 0.65rem;
+      padding: 0 0.65rem;
+    }
+
+    @include respond(small) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &-individual {
+    & a {
+      & img {
+        &:last-child {
+          display: none;
+        }
+
+        @include respond(medium) {
+          &:first-child {
+            display: none;
+          }
+
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
